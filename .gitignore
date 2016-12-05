@@ -1,0 +1,7 @@
+venv/
+excelninja/__init__.pyc
+excelninja/models.pyc
+excelninja/settingslocal.py
+excelninja/settingslocal.pyc
+excelninja/snapinstadash.pyc
+excelninja/views.pyc
