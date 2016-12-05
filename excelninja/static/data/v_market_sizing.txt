@@ -1,0 +1,68 @@
+-- MySQL dump 10.13  Distrib 5.7.16, for osx10.11 (x86_64)
+--
+-- Host: localhost    Database: the500days
+-- ------------------------------------------------------
+-- Server version	5.7.16
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Temporary view structure for view `v_market_sizing`
+--
+
+DROP TABLE IF EXISTS `v_market_sizing`;
+/*!50001 DROP VIEW IF EXISTS `v_market_sizing`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+/*!50001 CREATE VIEW `v_market_sizing` AS SELECT 
+ 1 AS `measure`,
+ 1 AS `gender`,
+ 1 AS `country_code`,
+ 1 AS `country`,
+ 1 AS `region`,
+ 1 AS `sub_region`,
+ 1 AS `age_min`,
+ 1 AS `age_max`,
+ 1 AS `age_range`,
+ 1 AS `country_population`,
+ 1 AS `users`,
+ 1 AS `dau`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Final view structure for view `v_market_sizing`
+--
+
+/*!50001 DROP VIEW IF EXISTS `v_market_sizing`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8 */;
+/*!50001 SET character_set_results     = utf8 */;
+/*!50001 SET collation_connection      = utf8_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`mars`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `v_market_sizing` AS select `market_sizing`.`measure` AS `measure`,`market_sizing`.`gender` AS `gender`,`market_sizing`.`country_code` AS `country_code`,`market_sizing`.`country` AS `country`,`market_sizing`.`region` AS `region`,`market_sizing`.`sub_region` AS `sub_region`,`market_sizing`.`age_min` AS `age_min`,`market_sizing`.`age_max` AS `age_max`,concat(`market_sizing`.`age_min`,'-',`market_sizing`.`age_max`) AS `age_range`,`market_sizing`.`country_population` AS `country_population`,`market_sizing`.`users` AS `users`,round((case when ((`market_sizing`.`measure` = 'instagram') and (`market_sizing`.`country_code` = 'us')) then (`market_sizing`.`users` * 0.63) when (`market_sizing`.`measure` = 'instagram') then (`market_sizing`.`users` * 0.43) when ((`market_sizing`.`measure` = 'snapchat') and (`market_sizing`.`country_code` in ('us','ca'))) then (`market_sizing`.`users` * 3.03) when ((`market_sizing`.`measure` = 'snapchat') and (`market_sizing`.`sub_region` like '%europe%')) then (`market_sizing`.`users` * 3.28) when (`market_sizing`.`measure` = 'snapchat') then (`market_sizing`.`users` * 1.86) when (`market_sizing`.`measure` = 'smartphones') then `market_sizing`.`users` else `market_sizing`.`users` end),0) AS `dau` from `market_sizing` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-12-05 13:37:15
