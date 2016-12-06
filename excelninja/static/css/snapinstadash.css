@@ -50,17 +50,18 @@ label {
 	text-align: right;
 }​
 
-age_range-input { 
-	width: 160px;
-}
-
-.age_range-input, .gender-input { 
-	width: 160px;
+.tbd { 
+	
 }
 
 .country-input { 
 	width: 300px;
 }
+
+.gender-input, .age_range-input { 
+	width: 200px;
+}
+
 
 ul.TokensContainer {
 	height: 30px !important;
