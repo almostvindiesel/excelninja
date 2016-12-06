@@ -93,7 +93,10 @@ Chart.defaults.global.tooltips = false;
 Chart.defaults.global.responsive = true;
 Chart.defaults.global.defaultFontColor = 'black';
 Chart.defaults.global.legend.display = false;
-Chart.defaults.global.maintainAspectRatio = false;       
+Chart.defaults.global.maintainAspectRatio = false;  
+
+var MinGraphHeight = 50;
+var PixelHeightPerDatum = 50;
 
 
 // ------------------------------------------------------------------------
@@ -102,8 +105,8 @@ Chart.defaults.global.maintainAspectRatio = false;
 
 function create_country_dau_chart(json) {
 
-  document.getElementById("countrydau").setAttribute("height", 50 + 50 * json.datasets[0].data.length);
-  document.getElementById("chartcol1").style.maxHeight = 50 + 50 * json.datasets[0].data.length + 'px';
+  document.getElementById("countrydau").setAttribute("height", MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length);
+  document.getElementById("chartcol1").style.maxHeight = MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length + 'px';
 
 
   var options = {
@@ -163,8 +166,8 @@ function create_country_dau_chart(json) {
 
 function create_country_penetration_chart(json) {
  
-  document.getElementById("countrypenetration").setAttribute("height", 50 + 50 * json.datasets[0].data.length);
-  document.getElementById("chartcol2").style.maxHeight = 50 + 50 * json.datasets[0].data.length + 'px';
+  document.getElementById("countrypenetration").setAttribute("height", MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length);
+  document.getElementById("chartcol2").style.maxHeight = MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length + 'px';
 
   var options = {
     showTooltips: false,
@@ -223,8 +226,8 @@ function create_country_penetration_chart(json) {
 
 function create_age_pct_chart(json) {
 
-  document.getElementById("agepct").setAttribute("height",  50 + 50 * json.datasets[0].data.length);
-  document.getElementById("chartcol3").style.maxHeight = 50 + 50 * json.datasets[0].data.length + 'px';
+  document.getElementById("agepct").setAttribute("height",  MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length);
+  document.getElementById("chartcol3").style.maxHeight = MinGraphHeight + PixelHeightPerDatum * json.datasets[0].data.length + 'px';
 
 
   var options = {
@@ -282,7 +285,7 @@ function create_age_pct_chart(json) {
 
 function create_gender_pct_chart(json, measure) {
 
-  document.getElementById("genderpct" + measure).setAttribute("height", 50 + 50 * json.datasets[0].data.length);
+  document.getElementById("genderpct" + measure).setAttribute("height",  + PixelHeightPerDatum * json.datasets[0].data.length);
   document.getElementById("chartcol4" + measure).style.maxHeight = '150px';
 
   function generate_legend() {

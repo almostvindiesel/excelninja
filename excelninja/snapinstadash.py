@@ -258,7 +258,7 @@ def age_pct():
     insta = dict (
         label = 'instagram',
         data  = insta_data,
-        backgroundColor = "#3366fc"
+        backgroundColor = "#740d69"
     )
     datasets.append(snap)
     datasets.append(insta)
@@ -318,7 +318,7 @@ def country_penetration():
     insta = dict (
         label = 'instagram',
         data  = insta_data,
-        backgroundColor = "#3366fc"
+        backgroundColor = "#740d69"
     )
     datasets.append(snap)
     datasets.append(insta)
@@ -373,7 +373,7 @@ def country_dau():
     insta = dict (
         label = 'instagram',
         data  = insta_data,
-        backgroundColor = "#3366fc"
+        backgroundColor = "#740d69"
     )
     datasets.append(snap)
     datasets.append(insta)

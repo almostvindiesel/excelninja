@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <head>
     <title>Snap vs Insta DAU Estimator</title>
@@ -19,10 +21,11 @@
 
   <body>
 
-    <h3 class="pagetitle"> <img src="/static/img/snap-icon.png" width=30> vs <img src="/static/img/insta-icon.png" width=30> DAU Estimator by Age, Country, and Gender</h3>
+    <h3 class="pagetitle">
+      <img src="/static/img/snap-icon.png" width=30> vs <img src="/static/img/insta-icon.png" width=30> DAU Estimater Dashboard </h3><p class="small">
     <div class="container-fluid">
       <div class="row" >
-        <div class="col-sm-6 col2x" style="vertical-align: middle; text-align: left;">
+        <div class="col-md-6 col2x" style="vertical-align: middle; text-align: left;">
           <label for="country-input"><i class="fa fa-flag fa-2x" aria-hidden="true"></i></label>
           <select class="country-input" multiple>
             {% for datum in countries %}
@@ -30,7 +33,7 @@
             {% endfor %}
           </select>
         </div>
-        <div class="col-sm-3 col1x" style="vertical-align: middle; text-align: left;">
+        <div class="col-md-3 col1x" style="vertical-align: middle; text-align: left;">
           <label for="gender-input"><i class="fa fa-female fa-2x" aria-hidden="true"></i> <i class="fa fa-male fa-2x" aria-hidden="true"></i></label>
           <select class="gender-input" multiple>
           {% for datum in genders %}
@@ -38,7 +41,7 @@
           {% endfor %}
           </select>
         </div>
-        <div class="col-sm-3 col1x" style="vertical-align: middle; text-align: left;">
+        <div class="col-md-3 col1x" style="vertical-align: middle; text-align: left;">
           <label for="age_range-input"><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child fa-2x" aria-hidden="true"></i></label>
           <select class="age_range-input" multiple>
             {% for datum in age_ranges %}
@@ -52,7 +55,7 @@
     <div class="container-fluid">
       <div class="row" >
 
-        <div class="col-sm-3 col1x">
+        <div class="col-md-3 col-xs-6 col1x">
           <div class="chartheader">
             <h4 class="text-center"><i class="fa fa-globe" aria-hidden="true"></i> Country DAU</h4>
           </div>
@@ -67,7 +70,7 @@
           <div class="clear"></div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-md-3 col-xs-6">
           <div class="chartheader col1x">
             <h4 class=text-center><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Penetration </h4>
           </div>
@@ -77,14 +80,14 @@
           </div>
           <div class="clear"></div>
           <div class="chartfooter">
-            <p class="small">Estimated Daily Mobile Penentration (DAU / Mobile Users) by Country</p>
+            <p class="small">Estimated Smartphone Penentration (DAU / All Smartphone Users) by Country</p>
           </div>
           <div class="clear"></div>
         </div>
 
-        <div class="clearfix visible-sm-block"></div>
+        <div class="clearfix visible-md-block"></div>
 
-        <div class="col-sm-3 col1x">
+        <div class="col-md-3 col-xs-6 col1x">
           <div class="chartheader">
             <h4 class="text-center"><i class="fa fa-user"></i> Age</h4>
           </div>
@@ -99,7 +102,7 @@
           <div class="clear"></div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-md-3 col-xs-6">
           <div id='chartcol4snapchat'> 
             <h4 class="text-center"><img src="/static/img/snap-icon.png" width=25> Gender</h4>
             <hr>
@@ -115,12 +118,13 @@
           </div>
         </div>
       </div>
-      <div class="clearfix visible-sm-block"></div>
+      <div class="clearfix visible-md-block"></div>
+      <br><br><br><br>
       <div class="row" >
-       <div id="footertext" class="col-lg-6 clearfix" style="padding-left: 20px">
+       <div id="footertext" class="col-md-6 clearfix" style="padding-left: 20px">
        <h4>About this Dashboard</h4>
        <p>This dashboard leverages publicly accessible data from the <a href=https://www.facebook.com/ads/create target='_blank'>Facebook Ads interface</a> as well as
-       media statements from Snap and Instagram on Daily Active Users to estimate dau and mobile market share by age, gender, and country</p>
+       media statements from Snap and Instagram on Daily Active Users to estimate dau and smartphone market share by age, gender, and country</p>
       </div>
     </div>
 
@@ -137,7 +141,7 @@ create_or_update_charts()
 
 $('.gender-input').tokenize({
    displayDropdownOnFocus:true,
-   placeholder: 'Select Genders, eg female',
+   placeholder: 'Genders, eg female',
    onAddToken: function(value, text, e) {
     create_or_update_charts();
    },
@@ -148,7 +152,7 @@ $('.gender-input').tokenize({
 
 $('.age_range-input').tokenize({
    displayDropdownOnFocus:true,
-   placeholder: 'Select Age Ranges, eg 18-24',
+   placeholder: 'Age Ranges, eg 18-24',
    onAddToken: function(value, text, e) {
     create_or_update_charts();
    },
@@ -159,7 +163,7 @@ $('.age_range-input').tokenize({
 
 $('.country-input').tokenize({
    displayDropdownOnFocus:true,
-   placeholder: 'Select Countries, eg United States',
+   placeholder: 'Countries, eg United States',
    onAddToken: function(value, text, e) {
     create_or_update_charts();
    },

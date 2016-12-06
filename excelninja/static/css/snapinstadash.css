@@ -1,20 +1,20 @@
 .col1x {
-	width: 350px;
+	min-width: 300px;
 }
 
 .col2x {
-	width: 650px;
+	min-width: 600px;
 }
 
 #chartcol1, #chartcol2, #chartcol3 {
-	width: 350px;
+	width: 300px;
 	float:left;
 	/*max-height: 1000px;*/
 }
 
 #chartcol4snapchat, #chartcol4instagram, {
 	width: 300px;
-	max-height: 300px;
+	max-height: 200px;
 }
 
 .chartfooter {
@@ -52,15 +52,15 @@ label {
 }​
 
 age_range-input { 
-	width: 200px;
+	width: 160px;
 }
 
 .age_range-input, .gender-input { 
-	width: 200px;
+	width: 160px;
 }
 
 .country-input { 
-	width: 500px;
+	width: 400px;
 }
 
 ul.TokensContainer {
