@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+  <head>
+    <title>Snap vs Insta DAU Estimator</title>
+       <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+
+       <script src="/static/js/Chart-2.3.0.js"></script>
+       <script src="/static/js/jquery-2.2.4.min.js"></script>
+       <script src="/static/js/netflixdash.js"></script>
+       <script src="/static/js/jquery.tokenize.js"></script>
+
+       <link  href="/static/css/jquery.tokenize.css" rel="stylesheet" />
+       <link  href="/static/css/font-awesome.min.css" rel="stylesheet" />
+       <link  href="/static/css/netflixdash.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12" style="vertical-align: middle; text-align: left;">
+          <h3 class="pagetitle">
+          <img src="/static/img/netflix-logo.png" width=100> Originals Dash
+          </h3>
+        </div>
+
+
+
+      <div class="row" >
+        <!-- Measure Selection Input 1-->
+        <div class="col-md-3" >
+            <label for="measure-input1" style="color:#066ff2"> Original 1 </label>
+            <select class="measure-input1" multiple style="width:50px !important;">
+              {% for datum in measure1 %}
+                <option value="{{ datum.measure1 }}" {{ datum.selected }} >{{ datum.measure1 }}</option>
+              {% endfor %}
+            </select>
+        </div>
+
+        <!-- Measure Selection Input -->
+        <div class="col-md-3" >
+            <label for="measure-input2" style="color:#772112"> Original 2</label>
+            <select class="measure-input2" multiple style="width:50px !important;">
+              {% for datum in measure2 %}
+                <option value="{{ datum.measure2 }}" {{ datum.selected }} >{{ datum.measure2 }}</option>
+              {% endfor %}
+            </select>
+        </div>
+
+        <div class="col-md-3" > </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" >
+
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class="text-center">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+              Country Comparison
+              {% for datum in measures %}
+                {% if datum.selected == 'selected' %}
+                <span>&nbsp;&nbsp;<font style="color: black; font-weight: 800;" class="small">{{ datum.measure }}</font>&nbsp;&nbsp; </span>
+                {% endif %}
+              {% endfor %}
+            </h4>
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol1'> 
+            <canvas id="country"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">FB Audience by Country</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <!--
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class=text-center><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Penetration </h4>
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol2'> 
+            <canvas id="countrypenetration"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">Estimated Smartphone Penentration (DAU / All Smartphone Users) by Country</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div class="clearfix visible-md-block"></div>
+        -->
+        <div class="col-md-4 col-xs-8">
+          <div id='chartcol4measure1'> 
+            <h4 class="text-center">Gender 
+            <i id='measure1gender'>
+            {% for datum in measure1 %}
+              {% if datum.selected == 'selected' %}
+                {{ datum.measure1 }}
+              {% endif %}
+            {% endfor %}
+            </i>
+            </h4>
+            <hr>
+            <canvas id="genderpctmeasure1"></canvas>
+            <div id=genderlegendmeasure1></div>
+          </div>
+          <br>
+          <div id='chartcol4measure2'> 
+            <h4 class="text-center">Gender
+            <i id='measure2gender'>
+            {% for datum in measure2 %}
+              {% if datum.selected == 'selected' %}
+                {{ datum.measure2 }}
+              {% endif %}
+            {% endfor %}
+            </i>
+
+            </h4>
+            <hr>
+            <canvas id="genderpctmeasure2"></canvas>
+            <div id=genderlegendmeasure2></div>
+          </div>
+        </div>
+
+        <div class="clearfix visible-md-block clearfix"></div>
+
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class="text-center"><i class="fa fa-user"></i> Age Distribution</h4>
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol3'> 
+            <canvas id="agepct"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">FB Audience by Age</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        
+        
+        
+
+      </div>
+      
+
+
+
+      
+      <br><br><br><br>
+      <div class="row" >
+       <div id="footertext" class="col-md-6 clearfix" style="padding-left: 20px">
+       <h4>About this Dashboard</h4>
+       <p>This dashboard leverages publicly accessible data from the <a href=https://www.facebook.com/ads/create target='_blank'>Facebook Ads interface</a> 
+       for Netflix Original titles</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+<script>
+
+create_or_update_charts()
+
+// ------------------------------------------------------------------------
+// Processes typeahead for tokens as well as updates graphs as 
+// new tokens are added or removed
+
+/*
+$('.gender-input').tokenize({
+   displayDropdownOnFocus:true,
+   placeholder: 'Genders, eg female',
+   onAddToken: function(value, text, e) {
+    create_or_update_charts();
+   },
+   onRemoveToken: function(value, text, e) {
+    create_or_update_charts();
+   }
+});
+*/
+/*
+$('.age_range-input').tokenize({
+   displayDropdownOnFocus:true,
+   placeholder: 'Age Ranges, eg 18-24',
+   onAddToken: function(value, text, e) {
+    create_or_update_charts();
+   },
+   onRemoveToken: function(value, text, e) {
+    create_or_update_charts();
+   }
+});
+*/
+
+
+$('.measure-input1').tokenize({
+   displayDropdownOnFocus:true,
+   maxElements: 1,
+   placeholder: 'Netflix Original Title, eg Narcos',
+   onAddToken: function(value, text, e) {
+    create_or_update_charts();
+    document.getElementById("measure1gender").innerHTML = value;
+   },
+   onRemoveToken: function(value, text, e) {
+    //create_or_update_charts();
+   }
+});
+
+$('.measure-input2').tokenize({
+   displayDropdownOnFocus:true,
+   maxElements: 1,
+   placeholder: 'Netflix Original Title, eg Narcos',
+   onAddToken: function(value, text, e) {
+    create_or_update_charts();
+    document.getElementById("measure2gender").innerHTML = value;
+   },
+   onRemoveToken: function(value, text, e) {
+    //create_or_update_charts();
+   }
+});
+
+</script>

@@ -29,8 +29,7 @@ import MySQLdb
 def redirect_to_linkedin():
     return redirect("https://www.linkedin.com/in/johnmarsland", code=302)
 
-@app.route('/dash', methods=['GET'])
-@app.route('/snapvsinstadau', methods=['GET'])
+@app.route('/snap', methods=['GET'])
 def dau():
 
     filter_values = initialize_filter_values()

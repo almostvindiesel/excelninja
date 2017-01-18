@@ -18,6 +18,8 @@ import sys
 from excelninja import app
 from models import db
 from snapinstadash import *
+from netflixdash import *
+
 
 
 

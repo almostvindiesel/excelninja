@@ -1,0 +1,1585 @@
+name,id,country_code,country,gender,min_age,max_age,reach
+Daredevil,1014297505253764,MX,Mexico,male,13,17,18000
+Daredevil,1014297505253764,DE,Germany,male,13,17,3300
+Daredevil,1014297505253764,IN,India,male,13,17,13000
+Daredevil,1014297505253764,FR,France,male,13,17,4500
+Daredevil,1014297505253764,NL,The Netherlands,male,13,17,320
+Daredevil,1014297505253764,US,United States,male,13,17,13000
+Daredevil,1014297505253764,AU,Australia,male,13,17,3900
+Daredevil,1014297505253764,BR,Brazil,male,13,17,46000
+Daredevil,1014297505253764,GB,Great Britian,male,13,17,6100
+Daredevil,1014297505253764,CO,Colombia,male,13,17,1800
+Daredevil,1014297505253764,AR,Argentina,male,13,17,1600
+Daredevil,1014297505253764,CA,Canada,male,13,17,1700
+Daredevil,1014297505253764,IN,India,male,18,24,70000
+Daredevil,1014297505253764,DE,Germany,male,18,24,11000
+Daredevil,1014297505253764,US,United States,male,18,24,120000
+Daredevil,1014297505253764,FR,France,male,18,24,22000
+Daredevil,1014297505253764,NL,The Netherlands,male,18,24,2200
+Daredevil,1014297505253764,CA,Canada,male,18,24,19000
+Daredevil,1014297505253764,MX,Mexico,male,18,24,83000
+Daredevil,1014297505253764,BR,Brazil,male,18,24,170000
+Daredevil,1014297505253764,CO,Colombia,female,45,54,30
+Daredevil,1014297505253764,GB,Great Britian,male,18,24,28000
+Daredevil,1014297505253764,AU,Australia,male,18,24,19000
+Daredevil,1014297505253764,CO,Colombia,male,45,54,150
+Daredevil,1014297505253764,IN,India,male,35,44,860
+Daredevil,1014297505253764,NL,The Netherlands,male,55,65,100
+Daredevil,1014297505253764,AR,Argentina,male,18,24,9100
+Daredevil,1014297505253764,AU,Australia,male,25,34,16000
+Daredevil,1014297505253764,DE,Germany,male,25,34,13000
+Daredevil,1014297505253764,BR,Brazil,male,35,44,22000
+Daredevil,1014297505253764,AR,Argentina,female,13,17,540
+Daredevil,1014297505253764,IN,India,male,45,54,240
+Daredevil,1014297505253764,DE,Germany,female,18,24,5900
+Daredevil,1014297505253764,MX,Mexico,male,25,34,38000
+Daredevil,1014297505253764,CO,Colombia,male,25,34,4500
+Daredevil,1014297505253764,US,United States,male,35,44,110000
+Daredevil,1014297505253764,US,United States,female,13,17,5800
+Daredevil,1014297505253764,NL,The Netherlands,female,45,54,100
+Daredevil,1014297505253764,IN,India,female,18,24,5500
+Daredevil,1014297505253764,CO,Colombia,female,35,44,180
+Daredevil,1014297505253764,MX,Mexico,female,13,17,7200
+Daredevil,1014297505253764,IN,India,male,55,65,340
+Daredevil,1014297505253764,AR,Argentina,male,35,44,2400
+Daredevil,1014297505253764,FR,France,male,25,34,13000
+Daredevil,1014297505253764,DE,Germany,female,13,17,2700
+Daredevil,1014297505253764,FR,France,female,13,17,1700
+Daredevil,1014297505253764,BR,Brazil,male,25,34,92000
+Daredevil,1014297505253764,CO,Colombia,male,18,24,7700
+Daredevil,1014297505253764,NL,The Netherlands,male,25,34,2500
+Daredevil,1014297505253764,AR,Argentina,male,25,34,8100
+Daredevil,1014297505253764,CO,Colombia,female,13,17,630
+Daredevil,1014297505253764,CO,Colombia,male,35,44,1000
+Daredevil,1014297505253764,IN,India,female,13,17,1500
+Daredevil,1014297505253764,MX,Mexico,male,55,65,1700
+Daredevil,1014297505253764,CA,Canada,male,25,34,19000
+Daredevil,1014297505253764,GB,Great Britian,male,25,34,28000
+Daredevil,1014297505253764,US,United States,male,25,34,180000
+Daredevil,1014297505253764,DE,Germany,male,45,54,2900
+Daredevil,1014297505253764,CA,Canada,female,18,24,6400
+Daredevil,1014297505253764,BR,Brazil,male,45,54,4200
+Daredevil,1014297505253764,DE,Germany,male,35,44,6400
+Daredevil,1014297505253764,MX,Mexico,male,45,54,1600
+Daredevil,1014297505253764,CA,Canada,male,55,65,1200
+Daredevil,1014297505253764,GB,Great Britian,male,35,44,14000
+Daredevil,1014297505253764,CA,Canada,male,35,44,9800
+Daredevil,1014297505253764,FR,France,male,35,44,4000
+Daredevil,1014297505253764,AR,Argentina,male,55,65,290
+Daredevil,1014297505253764,CA,Canada,female,13,17,670
+Daredevil,1014297505253764,IN,India,female,25,34,1500
+Daredevil,1014297505253764,AU,Australia,male,55,65,590
+Daredevil,1014297505253764,AR,Argentina,male,45,54,420
+Daredevil,1014297505253764,CO,Colombia,male,55,65,160
+Daredevil,1014297505253764,US,United States,female,45,54,10000
+Daredevil,1014297505253764,AU,Australia,female,13,17,1200
+Daredevil,1014297505253764,MX,Mexico,female,18,24,28000
+Daredevil,1014297505253764,US,United States,female,18,24,43000
+Daredevil,1014297505253764,FR,France,female,25,34,4000
+Daredevil,1014297505253764,GB,Great Britian,male,45,54,3800
+Daredevil,1014297505253764,GB,Great Britian,female,18,24,8700
+Daredevil,1014297505253764,GB,Great Britian,female,13,17,2200
+Daredevil,1014297505253764,BR,Brazil,female,13,17,23000
+Daredevil,1014297505253764,NL,The Netherlands,male,35,44,1100
+Daredevil,1014297505253764,FR,France,male,45,54,1000
+Daredevil,1014297505253764,AR,Argentina,female,45,54,210
+Daredevil,1014297505253764,AR,Argentina,female,35,44,720
+Daredevil,1014297505253764,AU,Australia,female,25,34,6000
+Daredevil,1014297505253764,BR,Brazil,female,18,24,75000
+Daredevil,1014297505253764,GB,Great Britian,female,25,34,9300
+Daredevil,1014297505253764,BR,Brazil,male,55,65,2300
+Daredevil,1014297505253764,US,United States,male,45,54,36000
+Daredevil,1014297505253764,DE,Germany,male,55,65,710
+Daredevil,1014297505253764,IN,India,male,25,34,16000
+Daredevil,1014297505253764,AU,Australia,male,35,44,6200
+Daredevil,1014297505253764,MX,Mexico,female,25,34,10000
+Daredevil,1014297505253764,AU,Australia,female,18,24,6700
+Daredevil,1014297505253764,NL,The Netherlands,male,45,54,270
+Daredevil,1014297505253764,US,United States,male,55,65,10000
+Daredevil,1014297505253764,CA,Canada,female,25,34,5700
+Daredevil,1014297505253764,AU,Australia,female,45,54,920
+Daredevil,1014297505253764,CA,Canada,female,45,54,1000
+Daredevil,1014297505253764,NL,The Netherlands,female,13,17,210
+Daredevil,1014297505253764,GB,Great Britian,male,55,65,1000
+Daredevil,1014297505253764,MX,Mexico,female,35,44,2100
+Daredevil,1014297505253764,FR,France,male,55,65,450
+Daredevil,1014297505253764,BR,Brazil,female,35,44,7700
+Daredevil,1014297505253764,IN,India,female,45,54,60
+Daredevil,1014297505253764,FR,France,female,45,54,310
+Daredevil,1014297505253764,US,United States,female,55,65,4500
+Daredevil,1014297505253764,AU,Australia,male,45,54,1400
+Daredevil,1014297505253764,MX,Mexico,male,35,44,9000
+Daredevil,1014297505253764,DE,Germany,female,25,34,6900
+Daredevil,1014297505253764,FR,France,female,18,24,7100
+Daredevil,1014297505253764,CA,Canada,male,45,54,2900
+Daredevil,1014297505253764,US,United States,female,35,44,28000
+Daredevil,1014297505253764,CO,Colombia,female,25,34,1000
+Daredevil,1014297505253764,BR,Brazil,female,45,54,2200
+Daredevil,1014297505253764,NL,The Netherlands,female,35,44,290
+Daredevil,1014297505253764,MX,Mexico,female,55,65,470
+Daredevil,1014297505253764,MX,Mexico,female,45,54,500
+Daredevil,1014297505253764,BR,Brazil,female,55,65,1000
+Daredevil,1014297505253764,GB,Great Britian,female,45,54,1300
+Daredevil,1014297505253764,IN,India,female,55,65,60
+Daredevil,1014297505253764,GB,Great Britian,female,55,65,380
+Daredevil,1014297505253764,AU,Australia,female,55,65,460
+Daredevil,1014297505253764,FR,France,female,55,65,190
+Daredevil,1014297505253764,CO,Colombia,female,55,65,50
+Daredevil,1014297505253764,NL,The Netherlands,female,55,65,40
+Daredevil,1014297505253764,AR,Argentina,female,55,65,100
+Daredevil,1014297505253764,IN,India,female,35,44,170
+Daredevil,1014297505253764,CO,Colombia,female,18,24,2300
+Daredevil,1014297505253764,DE,Germany,female,45,54,2300
+Daredevil,1014297505253764,DE,Germany,female,55,65,530
+Daredevil,1014297505253764,CA,Canada,female,55,65,880
+Daredevil,1014297505253764,AU,Australia,female,35,44,3100
+Daredevil,1014297505253764,GB,Great Britian,female,35,44,4500
+Daredevil,1014297505253764,CA,Canada,female,35,44,2700
+Daredevil,1014297505253764,NL,The Netherlands,female,25,34,1000
+Daredevil,1014297505253764,US,United States,female,25,34,55000
+Daredevil,1014297505253764,AR,Argentina,female,18,24,3300
+Daredevil,1014297505253764,AR,Argentina,female,25,34,2800
+Daredevil,1014297505253764,NL,The Netherlands,female,18,24,1200
+Daredevil,1014297505253764,BR,Brazil,female,25,34,34000
+Daredevil,1014297505253764,FR,France,female,35,44,990
+Daredevil,1014297505253764,DE,Germany,female,35,44,4100
+House of Cards,6007194702268,AU,Australia,male,13,17,870
+House of Cards,6007194702268,MX,Mexico,male,13,17,1500
+House of Cards,6007194702268,US,United States,male,13,17,2200
+House of Cards,6007194702268,FR,France,male,13,17,2000
+House of Cards,6007194702268,DE,Germany,male,13,17,1600
+House of Cards,6007194702268,IN,India,male,13,17,2000
+House of Cards,6007194702268,BR,Brazil,male,13,17,6800
+House of Cards,6007194702268,GB,Great Britian,male,13,17,1400
+House of Cards,6007194702268,AR,Argentina,male,13,17,330
+House of Cards,6007194702268,NL,The Netherlands,male,13,17,370
+House of Cards,6007194702268,CO,Colombia,male,13,17,190
+House of Cards,6007194702268,CA,Canada,male,13,17,500
+House of Cards,6007194702268,CO,Colombia,male,18,24,3500
+House of Cards,6007194702268,FR,France,male,18,24,43000
+House of Cards,6007194702268,AU,Australia,male,35,44,4300
+House of Cards,6007194702268,NL,The Netherlands,male,18,24,7600
+House of Cards,6007194702268,IN,India,male,18,24,55000
+House of Cards,6007194702268,CA,Canada,male,25,34,18000
+House of Cards,6007194702268,NL,The Netherlands,male,25,34,9800
+House of Cards,6007194702268,GB,Great Britian,male,25,34,22000
+House of Cards,6007194702268,FR,France,male,25,34,29000
+House of Cards,6007194702268,IN,India,male,25,34,32000
+House of Cards,6007194702268,DE,Germany,male,25,34,36000
+House of Cards,6007194702268,FR,France,male,35,44,6300
+House of Cards,6007194702268,AR,Argentina,male,18,24,18000
+House of Cards,6007194702268,GB,Great Britian,male,18,24,23000
+House of Cards,6007194702268,DE,Germany,male,18,24,29000
+House of Cards,6007194702268,MX,Mexico,male,18,24,27000
+House of Cards,6007194702268,DE,Germany,male,35,44,12000
+House of Cards,6007194702268,CA,Canada,male,18,24,16000
+House of Cards,6007194702268,US,United States,male,35,44,110000
+House of Cards,6007194702268,US,United States,male,25,34,210000
+House of Cards,6007194702268,BR,Brazil,male,18,24,73000
+House of Cards,6007194702268,MX,Mexico,male,35,44,12000
+House of Cards,6007194702268,BR,Brazil,male,35,44,21000
+House of Cards,6007194702268,BR,Brazil,male,25,34,70000
+House of Cards,6007194702268,GB,Great Britian,male,35,44,8500
+House of Cards,6007194702268,AR,Argentina,male,25,34,35000
+House of Cards,6007194702268,AU,Australia,male,18,24,10000
+House of Cards,6007194702268,AU,Australia,male,25,34,11000
+House of Cards,6007194702268,IN,India,male,35,44,3900
+House of Cards,6007194702268,CA,Canada,male,35,44,7100
+House of Cards,6007194702268,CO,Colombia,male,25,34,6200
+House of Cards,6007194702268,MX,Mexico,male,25,34,35000
+House of Cards,6007194702268,US,United States,male,18,24,100000
+House of Cards,6007194702268,IN,India,male,45,54,950
+House of Cards,6007194702268,IN,India,female,13,17,630
+House of Cards,6007194702268,IN,India,male,55,65,760
+House of Cards,6007194702268,DE,Germany,female,13,17,520
+House of Cards,6007194702268,CA,Canada,female,13,17,290
+House of Cards,6007194702268,FR,France,female,13,17,1300
+House of Cards,6007194702268,AR,Argentina,male,55,65,2200
+House of Cards,6007194702268,CO,Colombia,male,35,44,2300
+House of Cards,6007194702268,US,United States,female,13,17,970
+House of Cards,6007194702268,CO,Colombia,male,45,54,430
+House of Cards,6007194702268,NL,The Netherlands,female,13,17,230
+House of Cards,6007194702268,CO,Colombia,male,55,65,190
+House of Cards,6007194702268,CO,Colombia,female,13,17,100
+House of Cards,6007194702268,BR,Brazil,female,13,17,3400
+House of Cards,6007194702268,AR,Argentina,female,13,17,190
+House of Cards,6007194702268,GB,Great Britian,female,13,17,370
+House of Cards,6007194702268,MX,Mexico,male,55,65,1300
+House of Cards,6007194702268,MX,Mexico,female,35,44,9100
+House of Cards,6007194702268,MX,Mexico,female,13,17,930
+House of Cards,6007194702268,AU,Australia,female,13,17,210
+House of Cards,6007194702268,CO,Colombia,female,25,34,4100
+House of Cards,6007194702268,NL,The Netherlands,male,35,44,3900
+House of Cards,6007194702268,AU,Australia,male,45,54,1900
+House of Cards,6007194702268,CO,Colombia,female,18,24,2000
+House of Cards,6007194702268,MX,Mexico,male,45,54,2600
+House of Cards,6007194702268,DE,Germany,male,45,54,3900
+House of Cards,6007194702268,NL,The Netherlands,male,55,65,610
+House of Cards,6007194702268,GB,Great Britian,male,55,65,1700
+House of Cards,6007194702268,DE,Germany,male,55,65,1600
+House of Cards,6007194702268,CA,Canada,male,55,65,1600
+House of Cards,6007194702268,GB,Great Britian,male,45,54,3300
+House of Cards,6007194702268,NL,The Netherlands,female,25,34,5100
+House of Cards,6007194702268,IN,India,female,18,24,10000
+House of Cards,6007194702268,AR,Argentina,male,45,54,3100
+House of Cards,6007194702268,FR,France,female,25,34,14000
+House of Cards,6007194702268,FR,France,male,45,54,2300
+House of Cards,6007194702268,AR,Argentina,female,18,24,16000
+House of Cards,6007194702268,DE,Germany,female,18,24,10000
+House of Cards,6007194702268,US,United States,male,45,54,53000
+House of Cards,6007194702268,AU,Australia,male,55,65,800
+House of Cards,6007194702268,CA,Canada,male,45,54,3000
+House of Cards,6007194702268,BR,Brazil,male,45,54,3500
+House of Cards,6007194702268,BR,Brazil,female,35,44,18000
+House of Cards,6007194702268,FR,France,male,55,65,1300
+House of Cards,6007194702268,CA,Canada,female,25,34,11000
+House of Cards,6007194702268,MX,Mexico,female,18,24,18000
+House of Cards,6007194702268,GB,Great Britian,female,25,34,16000
+House of Cards,6007194702268,IN,India,female,25,34,8400
+House of Cards,6007194702268,US,United States,male,55,65,30000
+House of Cards,6007194702268,AR,Argentina,male,35,44,13000
+House of Cards,6007194702268,CA,Canada,female,18,24,8400
+House of Cards,6007194702268,BR,Brazil,male,55,65,1600
+House of Cards,6007194702268,BR,Brazil,female,25,34,42000
+House of Cards,6007194702268,DE,Germany,female,25,34,19000
+House of Cards,6007194702268,AU,Australia,female,18,24,4600
+House of Cards,6007194702268,BR,Brazil,female,18,24,36000
+House of Cards,6007194702268,AR,Argentina,female,25,34,22000
+House of Cards,6007194702268,FR,France,female,18,24,18000
+House of Cards,6007194702268,MX,Mexico,female,25,34,22000
+House of Cards,6007194702268,US,United States,female,25,34,130000
+House of Cards,6007194702268,AU,Australia,female,25,34,7800
+House of Cards,6007194702268,NL,The Netherlands,male,45,54,1900
+House of Cards,6007194702268,US,United States,female,35,44,110000
+House of Cards,6007194702268,NL,The Netherlands,female,18,24,2900
+House of Cards,6007194702268,IN,India,female,55,65,160
+House of Cards,6007194702268,CO,Colombia,female,45,54,580
+House of Cards,6007194702268,CO,Colombia,female,55,65,170
+House of Cards,6007194702268,DE,Germany,female,55,65,1200
+House of Cards,6007194702268,IN,India,female,35,44,1500
+House of Cards,6007194702268,MX,Mexico,female,55,65,1000
+House of Cards,6007194702268,IN,India,female,45,54,400
+House of Cards,6007194702268,NL,The Netherlands,female,35,44,3200
+House of Cards,6007194702268,CO,Colombia,female,35,44,1700
+House of Cards,6007194702268,BR,Brazil,female,55,65,1800
+House of Cards,6007194702268,GB,Great Britian,female,35,44,9800
+House of Cards,6007194702268,FR,France,female,45,54,2100
+House of Cards,6007194702268,AU,Australia,female,45,54,2800
+House of Cards,6007194702268,US,United States,female,18,24,48000
+House of Cards,6007194702268,AR,Argentina,female,55,65,2400
+House of Cards,6007194702268,FR,France,female,55,65,1300
+House of Cards,6007194702268,NL,The Netherlands,female,55,65,960
+House of Cards,6007194702268,GB,Great Britian,female,45,54,5500
+House of Cards,6007194702268,BR,Brazil,female,45,54,3900
+House of Cards,6007194702268,NL,The Netherlands,female,45,54,2100
+House of Cards,6007194702268,DE,Germany,female,45,54,2500
+House of Cards,6007194702268,AR,Argentina,female,35,44,10000
+House of Cards,6007194702268,DE,Germany,female,35,44,7100
+House of Cards,6007194702268,US,United States,female,45,54,68000
+House of Cards,6007194702268,GB,Great Britian,female,55,65,3400
+House of Cards,6007194702268,CA,Canada,female,45,54,4100
+House of Cards,6007194702268,US,United States,female,55,65,49000
+House of Cards,6007194702268,CA,Canada,female,35,44,6900
+House of Cards,6007194702268,FR,France,female,35,44,4700
+House of Cards,6007194702268,AR,Argentina,female,45,54,3600
+House of Cards,6007194702268,AU,Australia,female,35,44,5000
+House of Cards,6007194702268,CA,Canada,female,55,65,2500
+House of Cards,6007194702268,GB,Great Britian,female,18,24,10000
+House of Cards,6007194702268,MX,Mexico,female,45,54,2100
+House of Cards,6007194702268,AU,Australia,female,55,65,1400
+Stranger Things,206658226354084,NL,The Netherlands,male,13,17,180
+Stranger Things,206658226354084,IN,India,male,13,17,900
+Stranger Things,206658226354084,CO,Colombia,male,13,17,780
+Stranger Things,206658226354084,AR,Argentina,male,13,17,970
+Stranger Things,206658226354084,DE,Germany,male,13,17,470
+Stranger Things,206658226354084,MX,Mexico,male,13,17,6900
+Stranger Things,206658226354084,CA,Canada,male,13,17,1100
+Stranger Things,206658226354084,IN,India,male,25,34,8200
+Stranger Things,206658226354084,FR,France,male,13,17,3000
+Stranger Things,206658226354084,CA,Canada,male,18,24,15000
+Stranger Things,206658226354084,BR,Brazil,male,18,24,190000
+Stranger Things,206658226354084,GB,Great Britian,male,13,17,4100
+Stranger Things,206658226354084,US,United States,male,18,24,130000
+Stranger Things,206658226354084,AU,Australia,male,13,17,2900
+Stranger Things,206658226354084,AR,Argentina,male,18,24,14000
+Stranger Things,206658226354084,BR,Brazil,male,13,17,46000
+Stranger Things,206658226354084,FR,France,male,25,34,20000
+Stranger Things,206658226354084,US,United States,male,25,34,210000
+Stranger Things,206658226354084,FR,France,male,18,24,19000
+Stranger Things,206658226354084,GB,Great Britian,male,18,24,24000
+Stranger Things,206658226354084,NL,The Netherlands,male,25,34,3600
+Stranger Things,206658226354084,GB,Great Britian,male,25,34,30000
+Stranger Things,206658226354084,CA,Canada,male,25,34,21000
+Stranger Things,206658226354084,BR,Brazil,male,25,34,100000
+Stranger Things,206658226354084,MX,Mexico,male,25,34,120000
+Stranger Things,206658226354084,AU,Australia,male,25,34,10000
+Stranger Things,206658226354084,DE,Germany,male,18,24,7800
+Stranger Things,206658226354084,CO,Colombia,male,18,24,6600
+Stranger Things,206658226354084,NL,The Netherlands,male,18,24,2400
+Stranger Things,206658226354084,IN,India,male,18,24,16000
+Stranger Things,206658226354084,AU,Australia,male,18,24,11000
+Stranger Things,206658226354084,DE,Germany,male,25,34,13000
+Stranger Things,206658226354084,MX,Mexico,male,18,24,170000
+Stranger Things,206658226354084,US,United States,male,13,17,9200
+Stranger Things,206658226354084,AR,Argentina,male,25,34,21000
+Stranger Things,206658226354084,IN,India,male,45,54,100
+Stranger Things,206658226354084,CO,Colombia,male,45,54,120
+Stranger Things,206658226354084,IN,India,male,55,65,90
+Stranger Things,206658226354084,IN,India,female,45,54,40
+Stranger Things,206658226354084,DE,Germany,female,13,17,1100
+Stranger Things,206658226354084,IN,India,female,13,17,540
+Stranger Things,206658226354084,IN,India,male,35,44,680
+Stranger Things,206658226354084,FR,France,female,13,17,4200
+Stranger Things,206658226354084,CO,Colombia,male,35,44,1400
+Stranger Things,206658226354084,AU,Australia,male,45,54,1000
+Stranger Things,206658226354084,NL,The Netherlands,male,45,54,530
+Stranger Things,206658226354084,NL,The Netherlands,male,55,65,250
+Stranger Things,206658226354084,NL,The Netherlands,female,13,17,810
+Stranger Things,206658226354084,AR,Argentina,male,55,65,690
+Stranger Things,206658226354084,NL,The Netherlands,male,35,44,2000
+Stranger Things,206658226354084,CA,Canada,male,45,54,6300
+Stranger Things,206658226354084,US,United States,female,13,17,29000
+Stranger Things,206658226354084,BR,Brazil,female,13,17,98000
+Stranger Things,206658226354084,CO,Colombia,female,35,44,1100
+Stranger Things,206658226354084,CA,Canada,male,35,44,15000
+Stranger Things,206658226354084,IN,India,female,18,24,5000
+Stranger Things,206658226354084,US,United States,male,35,44,110000
+Stranger Things,206658226354084,CA,Canada,female,13,17,3800
+Stranger Things,206658226354084,AR,Argentina,male,45,54,960
+Stranger Things,206658226354084,DE,Germany,male,55,65,570
+Stranger Things,206658226354084,CO,Colombia,female,13,17,1600
+Stranger Things,206658226354084,IN,India,female,35,44,180
+Stranger Things,206658226354084,CO,Colombia,female,45,54,130
+Stranger Things,206658226354084,AR,Argentina,female,13,17,2400
+Stranger Things,206658226354084,US,United States,female,18,24,300000
+Stranger Things,206658226354084,FR,France,male,35,44,8100
+Stranger Things,206658226354084,GB,Great Britian,male,45,54,4100
+Stranger Things,206658226354084,CA,Canada,male,55,65,920
+Stranger Things,206658226354084,GB,Great Britian,female,13,17,11000
+Stranger Things,206658226354084,MX,Mexico,female,13,17,15000
+Stranger Things,206658226354084,FR,France,male,45,54,1800
+Stranger Things,206658226354084,AU,Australia,male,35,44,4400
+Stranger Things,206658226354084,US,United States,female,25,34,420000
+Stranger Things,206658226354084,DE,Germany,female,18,24,8500
+Stranger Things,206658226354084,AU,Australia,female,13,17,5300
+Stranger Things,206658226354084,AR,Argentina,female,18,24,26000
+Stranger Things,206658226354084,US,United States,female,35,44,140000
+Stranger Things,206658226354084,MX,Mexico,female,18,24,180000
+Stranger Things,206658226354084,MX,Mexico,male,45,54,1700
+Stranger Things,206658226354084,DE,Germany,female,25,34,11000
+Stranger Things,206658226354084,BR,Brazil,female,18,24,270000
+Stranger Things,206658226354084,CA,Canada,female,45,54,3100
+Stranger Things,206658226354084,CO,Colombia,male,25,34,5800
+Stranger Things,206658226354084,CO,Colombia,female,18,24,7900
+Stranger Things,206658226354084,MX,Mexico,female,45,54,1700
+Stranger Things,206658226354084,FR,France,male,55,65,920
+Stranger Things,206658226354084,GB,Great Britian,male,55,65,1200
+Stranger Things,206658226354084,BR,Brazil,male,35,44,24000
+Stranger Things,206658226354084,CA,Canada,female,18,24,20000
+Stranger Things,206658226354084,FR,France,female,45,54,1100
+Stranger Things,206658226354084,AU,Australia,female,18,24,13000
+Stranger Things,206658226354084,BR,Brazil,male,55,65,2400
+Stranger Things,206658226354084,CO,Colombia,male,55,65,180
+Stranger Things,206658226354084,FR,France,female,25,34,14000
+Stranger Things,206658226354084,AR,Argentina,female,35,44,7000
+Stranger Things,206658226354084,IN,India,female,25,34,2500
+Stranger Things,206658226354084,MX,Mexico,male,55,65,2200
+Stranger Things,206658226354084,NL,The Netherlands,female,45,54,510
+Stranger Things,206658226354084,US,United States,male,55,65,12000
+Stranger Things,206658226354084,US,United States,male,45,54,33000
+Stranger Things,206658226354084,AU,Australia,female,25,34,11000
+Stranger Things,206658226354084,NL,The Netherlands,female,18,24,3400
+Stranger Things,206658226354084,BR,Brazil,female,45,54,5200
+Stranger Things,206658226354084,NL,The Netherlands,female,35,44,1400
+Stranger Things,206658226354084,GB,Great Britian,female,45,54,4200
+Stranger Things,206658226354084,GB,Great Britian,female,18,24,31000
+Stranger Things,206658226354084,GB,Great Britian,female,25,34,30000
+Stranger Things,206658226354084,IN,India,female,55,65,40
+Stranger Things,206658226354084,FR,France,female,18,24,18000
+Stranger Things,206658226354084,FR,France,female,35,44,4400
+Stranger Things,206658226354084,AU,Australia,female,35,44,5700
+Stranger Things,206658226354084,AU,Australia,female,45,54,1600
+Stranger Things,206658226354084,BR,Brazil,male,45,54,3300
+Stranger Things,206658226354084,GB,Great Britian,female,35,44,15000
+Stranger Things,206658226354084,AR,Argentina,female,25,34,27000
+Stranger Things,206658226354084,CA,Canada,female,35,44,9500
+Stranger Things,206658226354084,BR,Brazil,female,35,44,28000
+Stranger Things,206658226354084,US,United States,female,45,54,52000
+Stranger Things,206658226354084,CA,Canada,female,25,34,19000
+Stranger Things,206658226354084,AU,Australia,male,55,65,400
+Stranger Things,206658226354084,DE,Germany,female,45,54,610
+Stranger Things,206658226354084,NL,The Netherlands,female,25,34,3500
+Stranger Things,206658226354084,CO,Colombia,female,25,34,5000
+Stranger Things,206658226354084,MX,Mexico,male,35,44,14000
+Stranger Things,206658226354084,FR,France,female,55,65,790
+Stranger Things,206658226354084,AU,Australia,female,55,65,570
+Stranger Things,206658226354084,AR,Argentina,male,35,44,6200
+Stranger Things,206658226354084,DE,Germany,female,55,65,400
+Stranger Things,206658226354084,US,United States,female,55,65,23000
+Stranger Things,206658226354084,GB,Great Britian,male,35,44,16000
+Stranger Things,206658226354084,AR,Argentina,female,55,65,1200
+Stranger Things,206658226354084,AR,Argentina,female,45,54,1500
+Stranger Things,206658226354084,GB,Great Britian,female,55,65,1500
+Stranger Things,206658226354084,CO,Colombia,female,55,65,170
+Stranger Things,206658226354084,DE,Germany,male,45,54,1100
+Stranger Things,206658226354084,DE,Germany,male,35,44,5800
+Stranger Things,206658226354084,DE,Germany,female,35,44,3300
+Stranger Things,206658226354084,MX,Mexico,female,35,44,12000
+Stranger Things,206658226354084,CA,Canada,female,55,65,1100
+Stranger Things,206658226354084,BR,Brazil,female,55,65,2900
+Stranger Things,206658226354084,MX,Mexico,female,55,65,1700
+Stranger Things,206658226354084,MX,Mexico,female,25,34,99000
+Stranger Things,206658226354084,NL,The Netherlands,female,55,65,220
+Stranger Things,206658226354084,BR,Brazil,female,25,34,120000
+Narcos,930793973626514,AR,Argentina,male,13,17,1200
+Narcos,930793973626514,CO,Colombia,male,13,17,3600
+Narcos,930793973626514,CO,Colombia,male,45,54,1200
+Narcos,930793973626514,FR,France,male,45,54,550
+Narcos,930793973626514,CA,Canada,male,13,17,340
+Narcos,930793973626514,IN,India,male,35,44,740
+Narcos,930793973626514,NL,The Netherlands,male,45,54,610
+Narcos,930793973626514,IN,India,male,55,65,160
+Narcos,930793973626514,FR,France,male,55,65,730
+Narcos,930793973626514,CO,Colombia,male,35,44,4600
+Narcos,930793973626514,AR,Argentina,male,45,54,1300
+Narcos,930793973626514,GB,Great Britian,male,55,65,700
+Narcos,930793973626514,MX,Mexico,male,45,54,6600
+Narcos,930793973626514,IN,India,male,18,24,32000
+Narcos,930793973626514,IN,India,male,13,17,1500
+Narcos,930793973626514,DE,Germany,male,13,17,1200
+Narcos,930793973626514,MX,Mexico,male,25,34,120000
+Narcos,930793973626514,GB,Great Britian,male,13,17,1600
+Narcos,930793973626514,CO,Colombia,male,18,24,27000
+Narcos,930793973626514,US,United States,male,18,24,65000
+Narcos,930793973626514,CO,Colombia,male,25,34,18000
+Narcos,930793973626514,BR,Brazil,male,18,24,240000
+Narcos,930793973626514,MX,Mexico,male,13,17,22000
+Narcos,930793973626514,AR,Argentina,male,25,34,23000
+Narcos,930793973626514,MX,Mexico,male,35,44,32000
+Narcos,930793973626514,MX,Mexico,male,18,24,170000
+Narcos,930793973626514,AR,Argentina,male,35,44,6500
+Narcos,930793973626514,AU,Australia,male,13,17,890
+Narcos,930793973626514,US,United States,male,25,34,120000
+Narcos,930793973626514,AR,Argentina,male,18,24,21000
+Narcos,930793973626514,DE,Germany,male,35,44,4300
+Narcos,930793973626514,DE,Germany,male,25,34,20000
+Narcos,930793973626514,GB,Great Britian,male,18,24,20000
+Narcos,930793973626514,IN,India,male,25,34,14000
+Narcos,930793973626514,CA,Canada,male,45,54,1800
+Narcos,930793973626514,AU,Australia,male,35,44,3000
+Narcos,930793973626514,CA,Canada,male,18,24,10000
+Narcos,930793973626514,AU,Australia,male,45,54,690
+Narcos,930793973626514,GB,Great Britian,male,45,54,2300
+Narcos,930793973626514,CA,Canada,male,35,44,6100
+Narcos,930793973626514,NL,The Netherlands,male,18,24,8300
+Narcos,930793973626514,FR,France,male,18,24,26000
+Narcos,930793973626514,BR,Brazil,male,35,44,43000
+Narcos,930793973626514,NL,The Netherlands,male,35,44,2400
+Narcos,930793973626514,CA,Canada,male,25,34,15000
+Narcos,930793973626514,AU,Australia,male,18,24,7600
+Narcos,930793973626514,DE,Germany,male,18,24,20000
+Narcos,930793973626514,NL,The Netherlands,male,25,34,8200
+Narcos,930793973626514,DE,Germany,male,55,65,630
+Narcos,930793973626514,IN,India,male,45,54,100
+Narcos,930793973626514,NL,The Netherlands,male,13,17,550
+Narcos,930793973626514,US,United States,male,35,44,55000
+Narcos,930793973626514,FR,France,male,35,44,3200
+Narcos,930793973626514,FR,France,male,25,34,16000
+Narcos,930793973626514,MX,Mexico,male,55,65,4000
+Narcos,930793973626514,US,United States,male,45,54,14000
+Narcos,930793973626514,BR,Brazil,male,13,17,23000
+Narcos,930793973626514,GB,Great Britian,male,25,34,30000
+Narcos,930793973626514,AU,Australia,male,25,34,9600
+Narcos,930793973626514,US,United States,male,55,65,6900
+Narcos,930793973626514,BR,Brazil,male,45,54,7500
+Narcos,930793973626514,FR,France,male,13,17,4400
+Narcos,930793973626514,BR,Brazil,male,55,65,3100
+Narcos,930793973626514,US,United States,male,13,17,2300
+Narcos,930793973626514,DE,Germany,male,45,54,720
+Narcos,930793973626514,GB,Great Britian,male,35,44,10000
+Narcos,930793973626514,BR,Brazil,male,25,34,180000
+Narcos,930793973626514,IN,India,female,45,54,30
+Narcos,930793973626514,IN,India,female,55,65,30
+Narcos,930793973626514,CA,Canada,female,13,17,130
+Narcos,930793973626514,AR,Argentina,male,55,65,490
+Narcos,930793973626514,NL,The Netherlands,female,13,17,220
+Narcos,930793973626514,IN,India,female,13,17,310
+Narcos,930793973626514,FR,France,female,13,17,1400
+Narcos,930793973626514,NL,The Netherlands,female,55,65,110
+Narcos,930793973626514,CO,Colombia,male,55,65,590
+Narcos,930793973626514,GB,Great Britian,female,13,17,350
+Narcos,930793973626514,MX,Mexico,female,18,24,89000
+Narcos,930793973626514,CO,Colombia,female,18,24,6200
+Narcos,930793973626514,NL,The Netherlands,male,55,65,250
+Narcos,930793973626514,DE,Germany,female,13,17,250
+Narcos,930793973626514,AR,Argentina,female,13,17,770
+Narcos,930793973626514,CO,Colombia,female,13,17,1700
+Narcos,930793973626514,AU,Australia,male,55,65,410
+Narcos,930793973626514,IN,India,female,35,44,150
+Narcos,930793973626514,IN,India,female,18,24,4600
+Narcos,930793973626514,CO,Colombia,female,45,54,660
+Narcos,930793973626514,MX,Mexico,female,25,34,58000
+Narcos,930793973626514,AU,Australia,female,55,65,310
+Narcos,930793973626514,FR,France,female,18,24,10000
+Narcos,930793973626514,MX,Mexico,female,13,17,15000
+Narcos,930793973626514,AR,Argentina,female,18,24,8900
+Narcos,930793973626514,AU,Australia,female,18,24,2500
+Narcos,930793973626514,AR,Argentina,female,45,54,770
+Narcos,930793973626514,DE,Germany,female,35,44,1600
+Narcos,930793973626514,GB,Great Britian,female,55,65,350
+Narcos,930793973626514,AR,Argentina,female,55,65,200
+Narcos,930793973626514,IN,India,female,25,34,2200
+Narcos,930793973626514,FR,France,female,35,44,1300
+Narcos,930793973626514,NL,The Netherlands,female,35,44,1100
+Narcos,930793973626514,NL,The Netherlands,female,25,34,3700
+Narcos,930793973626514,DE,Germany,female,55,65,210
+Narcos,930793973626514,DE,Germany,female,45,54,320
+Narcos,930793973626514,CA,Canada,female,25,34,6100
+Narcos,930793973626514,FR,France,female,55,65,280
+Narcos,930793973626514,DE,Germany,female,25,34,6800
+Narcos,930793973626514,US,United States,female,18,24,29000
+Narcos,930793973626514,CO,Colombia,female,35,44,1500
+Narcos,930793973626514,AR,Argentina,female,35,44,2900
+Narcos,930793973626514,CA,Canada,female,55,65,590
+Narcos,930793973626514,BR,Brazil,female,25,34,96000
+Narcos,930793973626514,GB,Great Britian,female,35,44,3800
+Narcos,930793973626514,AU,Australia,female,25,34,3900
+Narcos,930793973626514,AU,Australia,female,13,17,210
+Narcos,930793973626514,AR,Argentina,female,25,34,10000
+Narcos,930793973626514,GB,Great Britian,female,25,34,9100
+Narcos,930793973626514,FR,France,female,45,54,270
+Narcos,930793973626514,CA,Canada,female,35,44,2900
+Narcos,930793973626514,CO,Colombia,female,55,65,140
+Narcos,930793973626514,BR,Brazil,female,55,65,2200
+Narcos,930793973626514,BR,Brazil,female,13,17,13000
+Narcos,930793973626514,GB,Great Britian,female,18,24,5300
+Narcos,930793973626514,CA,Canada,female,18,24,4100
+Narcos,930793973626514,BR,Brazil,female,45,54,7900
+Narcos,930793973626514,MX,Mexico,female,55,65,1400
+Narcos,930793973626514,AU,Australia,female,45,54,520
+Narcos,930793973626514,US,United States,female,35,44,29000
+Narcos,930793973626514,NL,The Netherlands,female,18,24,3400
+Narcos,930793973626514,US,United States,female,25,34,51000
+Narcos,930793973626514,CO,Colombia,female,25,34,4000
+Narcos,930793973626514,BR,Brazil,female,35,44,29000
+Narcos,930793973626514,MX,Mexico,female,35,44,16000
+Narcos,930793973626514,US,United States,female,55,65,5300
+Narcos,930793973626514,CA,Canada,female,45,54,890
+Narcos,930793973626514,US,United States,female,45,54,9000
+Narcos,930793973626514,DE,Germany,female,18,24,5600
+Narcos,930793973626514,GB,Great Britian,female,45,54,960
+Narcos,930793973626514,NL,The Netherlands,female,45,54,340
+Narcos,930793973626514,CA,Canada,male,55,65,750
+Narcos,930793973626514,US,United States,female,13,17,1300
+Narcos,930793973626514,AU,Australia,female,35,44,1600
+Narcos,930793973626514,BR,Brazil,female,18,24,130000
+Narcos,930793973626514,MX,Mexico,female,45,54,4000
+Narcos,930793973626514,FR,France,female,25,34,6400
+The Crown,6003741815891,MX,Mexico,male,13,17,120
+The Crown,6003741815891,US,United States,male,13,17,3000
+The Crown,6003741815891,NL,The Netherlands,male,13,17,20
+The Crown,6003741815891,FR,France,male,13,17,20
+The Crown,6003741815891,CO,Colombia,male,13,17,30
+The Crown,6003741815891,AR,Argentina,male,13,17,40
+The Crown,6003741815891,DE,Germany,male,13,17,70
+The Crown,6003741815891,IN,India,male,13,17,430
+The Crown,6003741815891,BR,Brazil,male,13,17,2000
+The Crown,6003741815891,GB,Great Britian,male,13,17,140
+The Crown,6003741815891,CA,Canada,male,13,17,470
+The Crown,6003741815891,AU,Australia,male,13,17,110
+The Crown,6003741815891,US,United States,male,18,24,5200
+The Crown,6003741815891,BR,Brazil,male,18,24,19000
+The Crown,6003741815891,FR,France,male,18,24,50
+The Crown,6003741815891,AR,Argentina,male,55,65,20
+The Crown,6003741815891,NL,The Netherlands,female,13,17,20
+The Crown,6003741815891,NL,The Netherlands,male,25,34,80
+The Crown,6003741815891,FR,France,male,45,54,50
+The Crown,6003741815891,CO,Colombia,male,35,44,80
+The Crown,6003741815891,FR,France,female,13,17,20
+The Crown,6003741815891,FR,France,female,18,24,60
+The Crown,6003741815891,CO,Colombia,male,45,54,60
+The Crown,6003741815891,FR,France,male,35,44,70
+The Crown,6003741815891,NL,The Netherlands,male,18,24,60
+The Crown,6003741815891,AR,Argentina,male,45,54,40
+The Crown,6003741815891,CO,Colombia,female,13,17,60
+The Crown,6003741815891,AR,Argentina,male,35,44,110
+The Crown,6003741815891,MX,Mexico,male,55,65,120
+The Crown,6003741815891,MX,Mexico,male,35,44,970
+The Crown,6003741815891,AR,Argentina,male,18,24,480
+The Crown,6003741815891,CO,Colombia,male,55,65,80
+The Crown,6003741815891,FR,France,male,55,65,70
+The Crown,6003741815891,FR,France,female,25,34,80
+The Crown,6003741815891,AR,Argentina,female,13,17,90
+The Crown,6003741815891,MX,Mexico,female,13,17,120
+The Crown,6003741815891,NL,The Netherlands,male,35,44,110
+The Crown,6003741815891,FR,France,male,25,34,110
+The Crown,6003741815891,DE,Germany,female,13,17,9500
+The Crown,6003741815891,MX,Mexico,male,25,34,2100
+The Crown,6003741815891,CO,Colombia,male,25,34,170
+The Crown,6003741815891,IN,India,male,55,65,150
+The Crown,6003741815891,IN,India,male,18,24,6100
+The Crown,6003741815891,US,United States,female,13,17,2700
+The Crown,6003741815891,NL,The Netherlands,male,45,54,140
+The Crown,6003741815891,CA,Canada,female,13,17,720
+The Crown,6003741815891,MX,Mexico,male,45,54,210
+The Crown,6003741815891,NL,The Netherlands,female,18,24,60
+The Crown,6003741815891,IN,India,male,45,54,250
+The Crown,6003741815891,IN,India,female,18,24,1900
+The Crown,6003741815891,DE,Germany,male,18,24,960
+The Crown,6003741815891,IN,India,male,25,34,3200
+The Crown,6003741815891,GB,Great Britian,male,25,34,6000
+The Crown,6003741815891,GB,Great Britian,male,45,54,4200
+The Crown,6003741815891,AU,Australia,male,55,65,4300
+The Crown,6003741815891,DE,Germany,male,35,44,1100
+The Crown,6003741815891,MX,Mexico,female,35,44,970
+The Crown,6003741815891,DE,Germany,female,18,24,23000
+The Crown,6003741815891,BR,Brazil,male,45,54,1700
+The Crown,6003741815891,BR,Brazil,male,25,34,9200
+The Crown,6003741815891,GB,Great Britian,female,13,17,220
+The Crown,6003741815891,AU,Australia,female,13,17,60
+The Crown,6003741815891,DE,Germany,male,25,34,1800
+The Crown,6003741815891,AR,Argentina,female,18,24,410
+The Crown,6003741815891,CA,Canada,male,25,34,2000
+The Crown,6003741815891,AU,Australia,male,45,54,4200
+The Crown,6003741815891,US,United States,male,25,34,11000
+The Crown,6003741815891,CO,Colombia,female,18,24,340
+The Crown,6003741815891,MX,Mexico,female,18,24,1400
+The Crown,6003741815891,BR,Brazil,female,18,24,9500
+The Crown,6003741815891,AU,Australia,male,35,44,6500
+The Crown,6003741815891,IN,India,female,25,34,49000
+The Crown,6003741815891,GB,Great Britian,male,18,24,3000
+The Crown,6003741815891,CA,Canada,male,35,44,1100
+The Crown,6003741815891,GB,Great Britian,male,55,65,3000
+The Crown,6003741815891,BR,Brazil,male,55,65,1100
+The Crown,6003741815891,US,United States,male,35,44,10000
+The Crown,6003741815891,DE,Germany,male,45,54,620
+The Crown,6003741815891,GB,Great Britian,female,18,24,4400
+The Crown,6003741815891,NL,The Netherlands,female,25,34,80
+The Crown,6003741815891,CA,Canada,female,18,24,4000
+The Crown,6003741815891,DE,Germany,male,55,65,240
+The Crown,6003741815891,BR,Brazil,male,35,44,3800
+The Crown,6003741815891,BR,Brazil,female,25,34,8900
+The Crown,6003741815891,CO,Colombia,female,25,34,200
+The Crown,6003741815891,US,United States,male,45,54,10000
+The Crown,6003741815891,AU,Australia,male,18,24,6900
+The Crown,6003741815891,DE,Germany,female,25,34,13000
+The Crown,6003741815891,US,United States,female,18,24,7500
+The Crown,6003741815891,FR,France,female,35,44,100
+The Crown,6003741815891,CA,Canada,female,25,34,2200
+The Crown,6003741815891,BR,Brazil,female,35,44,7300
+The Crown,6003741815891,AU,Australia,female,18,24,4100
+The Crown,6003741815891,CA,Canada,male,45,54,900
+The Crown,6003741815891,GB,Great Britian,female,25,34,8700
+The Crown,6003741815891,GB,Great Britian,female,35,44,7800
+The Crown,6003741815891,CA,Canada,male,55,65,1100
+The Crown,6003741815891,NL,The Netherlands,female,35,44,80
+The Crown,6003741815891,MX,Mexico,female,55,65,90
+The Crown,6003741815891,MX,Mexico,female,25,34,1400
+The Crown,6003741815891,DE,Germany,female,35,44,1700
+The Crown,6003741815891,AR,Argentina,female,25,34,390
+The Crown,6003741815891,AU,Australia,male,25,34,12000
+The Crown,6003741815891,FR,France,female,45,54,100
+The Crown,6003741815891,IN,India,male,35,44,650
+The Crown,6003741815891,CO,Colombia,female,45,54,80
+The Crown,6003741815891,CO,Colombia,female,55,65,120
+The Crown,6003741815891,IN,India,female,13,17,170
+The Crown,6003741815891,MX,Mexico,male,18,24,2600
+The Crown,6003741815891,NL,The Netherlands,male,55,65,270
+The Crown,6003741815891,CA,Canada,male,18,24,4200
+The Crown,6003741815891,BR,Brazil,female,13,17,4600
+The Crown,6003741815891,IN,India,female,35,44,27000
+The Crown,6003741815891,BR,Brazil,female,45,54,4800
+The Crown,6003741815891,DE,Germany,female,45,54,340
+The Crown,6003741815891,CO,Colombia,female,35,44,120
+The Crown,6003741815891,IN,India,female,55,65,4700
+The Crown,6003741815891,AU,Australia,female,25,34,10000
+The Crown,6003741815891,NL,The Netherlands,female,55,65,100
+The Crown,6003741815891,GB,Great Britian,female,45,54,6400
+The Crown,6003741815891,AU,Australia,female,55,65,12000
+The Crown,6003741815891,FR,France,female,55,65,120
+The Crown,6003741815891,NL,The Netherlands,female,45,54,70
+The Crown,6003741815891,CA,Canada,female,35,44,1500
+The Crown,6003741815891,US,United States,female,45,54,12000
+The Crown,6003741815891,AR,Argentina,female,55,65,90
+The Crown,6003741815891,AR,Argentina,male,25,34,400
+The Crown,6003741815891,DE,Germany,female,55,65,170
+The Crown,6003741815891,CA,Canada,female,55,65,2900
+The Crown,6003741815891,GB,Great Britian,female,55,65,4800
+The Crown,6003741815891,CA,Canada,female,45,54,1800
+The Crown,6003741815891,CO,Colombia,male,18,24,320
+The Crown,6003741815891,US,United States,male,55,65,13000
+The Crown,6003741815891,AU,Australia,female,45,54,10000
+The Crown,6003741815891,US,United States,female,55,65,18000
+The Crown,6003741815891,US,United States,female,35,44,12000
+The Crown,6003741815891,IN,India,female,45,54,10000
+The Crown,6003741815891,MX,Mexico,female,45,54,230
+The Crown,6003741815891,AR,Argentina,female,45,54,130
+The Crown,6003741815891,GB,Great Britian,male,35,44,4700
+The Crown,6003741815891,US,United States,female,25,34,14000
+The Crown,6003741815891,BR,Brazil,female,55,65,2800
+The Crown,6003741815891,AR,Argentina,female,35,44,220
+The Crown,6003741815891,AU,Australia,female,35,44,11000
+Orange Is the New Black,6006966852659,BR,Brazil,male,13,17,33000
+Orange Is the New Black,6006966852659,MX,Mexico,male,13,17,6400
+Orange Is the New Black,6006966852659,US,United States,male,13,17,13000
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,13,17,410
+Orange Is the New Black,6006966852659,DE,Germany,male,13,17,590
+Orange Is the New Black,6006966852659,FR,France,male,13,17,4600
+Orange Is the New Black,6006966852659,CO,Colombia,male,13,17,640
+Orange Is the New Black,6006966852659,AR,Argentina,male,13,17,460
+Orange Is the New Black,6006966852659,CA,Canada,male,13,17,1100
+Orange Is the New Black,6006966852659,IN,India,male,25,34,7200
+Orange Is the New Black,6006966852659,AR,Argentina,male,18,24,6600
+Orange Is the New Black,6006966852659,CO,Colombia,male,18,24,4800
+Orange Is the New Black,6006966852659,DE,Germany,male,18,24,6700
+Orange Is the New Black,6006966852659,IN,India,male,18,24,25000
+Orange Is the New Black,6006966852659,AU,Australia,male,13,17,2000
+Orange Is the New Black,6006966852659,GB,Great Britian,male,18,24,46000
+Orange Is the New Black,6006966852659,FR,France,male,18,24,27000
+Orange Is the New Black,6006966852659,BR,Brazil,male,18,24,150000
+Orange Is the New Black,6006966852659,MX,Mexico,male,18,24,63000
+Orange Is the New Black,6006966852659,IN,India,male,13,17,4500
+Orange Is the New Black,6006966852659,GB,Great Britian,male,13,17,11000
+Orange Is the New Black,6006966852659,BR,Brazil,male,25,34,61000
+Orange Is the New Black,6006966852659,DE,Germany,male,25,34,7900
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,18,24,3300
+Orange Is the New Black,6006966852659,US,United States,male,18,24,170000
+Orange Is the New Black,6006966852659,CA,Canada,male,18,24,12000
+Orange Is the New Black,6006966852659,US,United States,male,25,34,220000
+Orange Is the New Black,6006966852659,FR,France,male,25,34,16000
+Orange Is the New Black,6006966852659,GB,Great Britian,male,25,34,29000
+Orange Is the New Black,6006966852659,MX,Mexico,male,25,34,48000
+Orange Is the New Black,6006966852659,AU,Australia,male,18,24,7400
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,25,34,3100
+Orange Is the New Black,6006966852659,CO,Colombia,male,35,44,900
+Orange Is the New Black,6006966852659,FR,France,female,13,17,22000
+Orange Is the New Black,6006966852659,IN,India,male,35,44,860
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,35,44,1200
+Orange Is the New Black,6006966852659,IN,India,male,55,65,230
+Orange Is the New Black,6006966852659,IN,India,male,45,54,230
+Orange Is the New Black,6006966852659,US,United States,male,35,44,96000
+Orange Is the New Black,6006966852659,CO,Colombia,male,55,65,160
+Orange Is the New Black,6006966852659,DE,Germany,male,55,65,330
+Orange Is the New Black,6006966852659,AU,Australia,male,25,34,4700
+Orange Is the New Black,6006966852659,GB,Great Britian,female,13,17,54000
+Orange Is the New Black,6006966852659,FR,France,male,35,44,2500
+Orange Is the New Black,6006966852659,IN,India,female,13,17,2200
+Orange Is the New Black,6006966852659,AR,Argentina,male,35,44,2100
+Orange Is the New Black,6006966852659,AR,Argentina,female,13,17,2700
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,45,54,480
+Orange Is the New Black,6006966852659,DE,Germany,male,45,54,850
+Orange Is the New Black,6006966852659,DE,Germany,female,25,34,31000
+Orange Is the New Black,6006966852659,AU,Australia,male,55,65,340
+Orange Is the New Black,6006966852659,BR,Brazil,female,13,17,190000
+Orange Is the New Black,6006966852659,CA,Canada,female,18,24,110000
+Orange Is the New Black,6006966852659,DE,Germany,female,13,17,5000
+Orange Is the New Black,6006966852659,AR,Argentina,female,18,24,28000
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,13,17,4900
+Orange Is the New Black,6006966852659,IN,India,female,18,24,26000
+Orange Is the New Black,6006966852659,CA,Canada,male,25,34,13000
+Orange Is the New Black,6006966852659,DE,Germany,female,18,24,35000
+Orange Is the New Black,6006966852659,CA,Canada,male,35,44,6700
+Orange Is the New Black,6006966852659,AU,Australia,male,45,54,730
+Orange Is the New Black,6006966852659,CO,Colombia,female,35,44,1400
+Orange Is the New Black,6006966852659,MX,Mexico,female,13,17,31000
+Orange Is the New Black,6006966852659,GB,Great Britian,female,18,24,220000
+Orange Is the New Black,6006966852659,DE,Germany,female,45,54,1400
+Orange Is the New Black,6006966852659,MX,Mexico,male,35,44,11000
+Orange Is the New Black,6006966852659,MX,Mexico,female,25,34,140000
+Orange Is the New Black,6006966852659,DE,Germany,female,35,44,6500
+Orange Is the New Black,6006966852659,AU,Australia,female,13,17,16000
+Orange Is the New Black,6006966852659,CO,Colombia,male,25,34,3500
+Orange Is the New Black,6006966852659,IN,India,female,45,54,110
+Orange Is the New Black,6006966852659,CA,Canada,male,45,54,3300
+Orange Is the New Black,6006966852659,FR,France,female,25,34,44000
+Orange Is the New Black,6006966852659,GB,Great Britian,male,35,44,8500
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,18,24,27000
+Orange Is the New Black,6006966852659,GB,Great Britian,male,45,54,2900
+Orange Is the New Black,6006966852659,CA,Canada,female,13,17,8300
+Orange Is the New Black,6006966852659,FR,France,female,45,54,1800
+Orange Is the New Black,6006966852659,AR,Argentina,male,45,54,370
+Orange Is the New Black,6006966852659,MX,Mexico,male,55,65,1600
+Orange Is the New Black,6006966852659,MX,Mexico,male,45,54,2000
+Orange Is the New Black,6006966852659,FR,France,male,55,65,530
+Orange Is the New Black,6006966852659,CA,Canada,female,25,34,91000
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,45,54,2200
+Orange Is the New Black,6006966852659,CO,Colombia,female,18,24,15000
+Orange Is the New Black,6006966852659,IN,India,female,25,34,13000
+Orange Is the New Black,6006966852659,DE,Germany,male,35,44,2700
+Orange Is the New Black,6006966852659,GB,Great Britian,female,35,44,44000
+Orange Is the New Black,6006966852659,CA,Canada,female,35,44,42000
+Orange Is the New Black,6006966852659,NL,The Netherlands,male,55,65,210
+Orange Is the New Black,6006966852659,BR,Brazil,male,55,65,2400
+Orange Is the New Black,6006966852659,AR,Argentina,male,55,65,340
+Orange Is the New Black,6006966852659,GB,Great Britian,male,55,65,1300
+Orange Is the New Black,6006966852659,US,United States,female,25,34,1400000
+Orange Is the New Black,6006966852659,MX,Mexico,female,35,44,23000
+Orange Is the New Black,6006966852659,BR,Brazil,male,35,44,12000
+Orange Is the New Black,6006966852659,AR,Argentina,male,25,34,7600
+Orange Is the New Black,6006966852659,US,United States,female,13,17,100000
+Orange Is the New Black,6006966852659,GB,Great Britian,female,25,34,160000
+Orange Is the New Black,6006966852659,MX,Mexico,female,18,24,220000
+Orange Is the New Black,6006966852659,BR,Brazil,female,35,44,43000
+Orange Is the New Black,6006966852659,CA,Canada,male,55,65,2400
+Orange Is the New Black,6006966852659,AR,Argentina,female,35,44,5800
+Orange Is the New Black,6006966852659,BR,Brazil,female,25,34,220000
+Orange Is the New Black,6006966852659,US,United States,female,35,44,630000
+Orange Is the New Black,6006966852659,GB,Great Britian,female,45,54,13000
+Orange Is the New Black,6006966852659,FR,France,female,18,24,82000
+Orange Is the New Black,6006966852659,MX,Mexico,female,45,54,4200
+Orange Is the New Black,6006966852659,US,United States,female,45,54,230000
+Orange Is the New Black,6006966852659,AU,Australia,female,25,34,34000
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,35,44,6000
+Orange Is the New Black,6006966852659,AU,Australia,female,18,24,54000
+Orange Is the New Black,6006966852659,AU,Australia,female,35,44,14000
+Orange Is the New Black,6006966852659,CA,Canada,female,45,54,17000
+Orange Is the New Black,6006966852659,CO,Colombia,female,25,34,8100
+Orange Is the New Black,6006966852659,BR,Brazil,male,45,54,3000
+Orange Is the New Black,6006966852659,IN,India,female,35,44,2500
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,25,34,20000
+Orange Is the New Black,6006966852659,US,United States,female,18,24,1300000
+Orange Is the New Black,6006966852659,US,United States,male,45,54,42000
+Orange Is the New Black,6006966852659,AU,Australia,female,45,54,4800
+Orange Is the New Black,6006966852659,US,United States,male,55,65,36000
+Orange Is the New Black,6006966852659,CO,Colombia,male,45,54,200
+Orange Is the New Black,6006966852659,AR,Argentina,female,45,54,1500
+Orange Is the New Black,6006966852659,FR,France,female,35,44,8100
+Orange Is the New Black,6006966852659,CO,Colombia,female,13,17,3000
+Orange Is the New Black,6006966852659,IN,India,female,55,65,130
+Orange Is the New Black,6006966852659,FR,France,male,45,54,640
+Orange Is the New Black,6006966852659,CO,Colombia,female,45,54,290
+Orange Is the New Black,6006966852659,AR,Argentina,female,25,34,27000
+Orange Is the New Black,6006966852659,DE,Germany,female,55,65,720
+Orange Is the New Black,6006966852659,AR,Argentina,female,55,65,910
+Orange Is the New Black,6006966852659,US,United States,female,55,65,110000
+Orange Is the New Black,6006966852659,NL,The Netherlands,female,55,65,730
+Orange Is the New Black,6006966852659,BR,Brazil,female,55,65,7700
+Orange Is the New Black,6006966852659,CO,Colombia,female,55,65,330
+Orange Is the New Black,6006966852659,GB,Great Britian,female,55,65,4100
+Orange Is the New Black,6006966852659,FR,France,female,55,65,1500
+Orange Is the New Black,6006966852659,AU,Australia,female,55,65,1700
+Orange Is the New Black,6006966852659,CA,Canada,female,55,65,8400
+Orange Is the New Black,6006966852659,MX,Mexico,female,55,65,4100
+Orange Is the New Black,6006966852659,BR,Brazil,female,45,54,10000
+Orange Is the New Black,6006966852659,BR,Brazil,female,18,24,590000
+Orange Is the New Black,6006966852659,AU,Australia,male,35,44,1900
+Bloodline,395212080662517,DE,Germany,male,13,17,20
+Bloodline,395212080662517,IN,India,male,13,17,40
+Bloodline,395212080662517,FR,France,male,13,17,40
+Bloodline,395212080662517,GB,Great Britian,male,13,17,30
+Bloodline,395212080662517,AU,Australia,male,13,17,20
+Bloodline,395212080662517,US,United States,male,13,17,330
+Bloodline,395212080662517,MX,Mexico,male,13,17,80
+Bloodline,395212080662517,NL,The Netherlands,male,13,17,20
+Bloodline,395212080662517,BR,Brazil,male,13,17,140
+Bloodline,395212080662517,CA,Canada,male,13,17,20
+Bloodline,395212080662517,AR,Argentina,male,13,17,20
+Bloodline,395212080662517,CO,Colombia,male,13,17,90
+Bloodline,395212080662517,IN,India,male,18,24,740
+Bloodline,395212080662517,FR,France,male,18,24,550
+Bloodline,395212080662517,CA,Canada,male,18,24,510
+Bloodline,395212080662517,AU,Australia,male,18,24,270
+Bloodline,395212080662517,GB,Great Britian,male,18,24,480
+Bloodline,395212080662517,CO,Colombia,male,18,24,870
+Bloodline,395212080662517,MX,Mexico,male,18,24,650
+Bloodline,395212080662517,BR,Brazil,male,18,24,1500
+Bloodline,395212080662517,AR,Argentina,male,18,24,210
+Bloodline,395212080662517,DE,Germany,male,18,24,510
+Bloodline,395212080662517,US,United States,male,18,24,5800
+Bloodline,395212080662517,NL,The Netherlands,male,18,24,210
+Bloodline,395212080662517,US,United States,male,25,34,14000
+Bloodline,395212080662517,IN,India,male,45,54,20
+Bloodline,395212080662517,IN,India,male,55,65,20
+Bloodline,395212080662517,CO,Colombia,male,45,54,20
+Bloodline,395212080662517,NL,The Netherlands,female,13,17,20
+Bloodline,395212080662517,FR,France,female,13,17,20
+Bloodline,395212080662517,DE,Germany,female,13,17,20
+Bloodline,395212080662517,AR,Argentina,male,55,65,30
+Bloodline,395212080662517,CA,Canada,female,13,17,20
+Bloodline,395212080662517,AU,Australia,female,13,17,20
+Bloodline,395212080662517,BR,Brazil,male,55,65,40
+Bloodline,395212080662517,NL,The Netherlands,male,55,65,30
+Bloodline,395212080662517,AR,Argentina,female,13,17,20
+Bloodline,395212080662517,IN,India,male,35,44,30
+Bloodline,395212080662517,FR,France,male,55,65,50
+Bloodline,395212080662517,AU,Australia,male,55,65,50
+Bloodline,395212080662517,MX,Mexico,male,45,54,50
+Bloodline,395212080662517,GB,Great Britian,female,13,17,20
+Bloodline,395212080662517,FR,France,male,45,54,90
+Bloodline,395212080662517,AR,Argentina,male,45,54,70
+Bloodline,395212080662517,BR,Brazil,male,45,54,80
+Bloodline,395212080662517,DE,Germany,male,55,65,40
+Bloodline,395212080662517,IN,India,female,13,17,20
+Bloodline,395212080662517,CA,Canada,male,55,65,110
+Bloodline,395212080662517,BR,Brazil,female,13,17,90
+Bloodline,395212080662517,CO,Colombia,male,35,44,100
+Bloodline,395212080662517,CO,Colombia,male,55,65,40
+Bloodline,395212080662517,MX,Mexico,male,55,65,30
+Bloodline,395212080662517,IN,India,female,18,24,100
+Bloodline,395212080662517,FR,France,male,25,34,610
+Bloodline,395212080662517,AR,Argentina,male,35,44,280
+Bloodline,395212080662517,MX,Mexico,female,13,17,40
+Bloodline,395212080662517,CA,Canada,male,45,54,300
+Bloodline,395212080662517,NL,The Netherlands,male,25,34,340
+Bloodline,395212080662517,NL,The Netherlands,male,35,44,210
+Bloodline,395212080662517,BR,Brazil,male,35,44,400
+Bloodline,395212080662517,IN,India,male,25,34,340
+Bloodline,395212080662517,GB,Great Britian,male,25,34,820
+Bloodline,395212080662517,US,United States,female,13,17,970
+Bloodline,395212080662517,CO,Colombia,male,25,34,540
+Bloodline,395212080662517,CO,Colombia,female,13,17,230
+Bloodline,395212080662517,AU,Australia,male,45,54,130
+Bloodline,395212080662517,MX,Mexico,male,35,44,240
+Bloodline,395212080662517,FR,France,male,35,44,320
+Bloodline,395212080662517,US,United States,male,55,65,3500
+Bloodline,395212080662517,CA,Canada,male,35,44,660
+Bloodline,395212080662517,AR,Argentina,male,25,34,450
+Bloodline,395212080662517,MX,Mexico,female,18,24,260
+Bloodline,395212080662517,CO,Colombia,female,18,24,1000
+Bloodline,395212080662517,AR,Argentina,female,18,24,170
+Bloodline,395212080662517,DE,Germany,female,18,24,220
+Bloodline,395212080662517,MX,Mexico,male,25,34,720
+Bloodline,395212080662517,GB,Great Britian,male,55,65,60
+Bloodline,395212080662517,BR,Brazil,female,18,24,870
+Bloodline,395212080662517,AU,Australia,female,18,24,140
+Bloodline,395212080662517,GB,Great Britian,female,18,24,240
+Bloodline,395212080662517,FR,France,female,18,24,290
+Bloodline,395212080662517,NL,The Netherlands,female,18,24,170
+Bloodline,395212080662517,BR,Brazil,male,25,34,1500
+Bloodline,395212080662517,CA,Canada,female,18,24,450
+Bloodline,395212080662517,NL,The Netherlands,male,45,54,100
+Bloodline,395212080662517,DE,Germany,male,45,54,130
+Bloodline,395212080662517,DE,Germany,male,35,44,460
+Bloodline,395212080662517,GB,Great Britian,male,35,44,610
+Bloodline,395212080662517,AU,Australia,male,25,34,400
+Bloodline,395212080662517,US,United States,female,18,24,6100
+Bloodline,395212080662517,US,United States,male,35,44,12000
+Bloodline,395212080662517,US,United States,male,45,54,6500
+Bloodline,395212080662517,DE,Germany,male,25,34,1000
+Bloodline,395212080662517,AU,Australia,male,35,44,310
+Bloodline,395212080662517,GB,Great Britian,male,45,54,220
+Bloodline,395212080662517,IN,India,female,35,44,20
+Bloodline,395212080662517,IN,India,female,25,34,70
+Bloodline,395212080662517,DE,Germany,female,45,54,110
+Bloodline,395212080662517,FR,France,female,35,44,300
+Bloodline,395212080662517,DE,Germany,female,35,44,430
+Bloodline,395212080662517,NL,The Netherlands,female,35,44,360
+Bloodline,395212080662517,CO,Colombia,female,35,44,60
+Bloodline,395212080662517,MX,Mexico,female,45,54,50
+Bloodline,395212080662517,BR,Brazil,female,45,54,140
+Bloodline,395212080662517,DE,Germany,female,25,34,800
+Bloodline,395212080662517,CO,Colombia,female,25,34,370
+Bloodline,395212080662517,FR,France,female,45,54,130
+Bloodline,395212080662517,GB,Great Britian,female,35,44,870
+Bloodline,395212080662517,AR,Argentina,female,25,34,630
+Bloodline,395212080662517,AU,Australia,female,25,34,530
+Bloodline,395212080662517,CA,Canada,female,35,44,1500
+Bloodline,395212080662517,NL,The Netherlands,female,25,34,370
+Bloodline,395212080662517,CA,Canada,female,25,34,1400
+Bloodline,395212080662517,GB,Great Britian,female,25,34,800
+Bloodline,395212080662517,CA,Canada,male,25,34,970
+Bloodline,395212080662517,AU,Australia,female,35,44,910
+Bloodline,395212080662517,AR,Argentina,female,35,44,410
+Bloodline,395212080662517,US,United States,female,45,54,21000
+Bloodline,395212080662517,IN,India,female,45,54,20
+Bloodline,395212080662517,MX,Mexico,female,25,34,390
+Bloodline,395212080662517,IN,India,female,55,65,20
+Bloodline,395212080662517,BR,Brazil,female,35,44,520
+Bloodline,395212080662517,CO,Colombia,female,55,65,20
+Bloodline,395212080662517,MX,Mexico,female,55,65,30
+Bloodline,395212080662517,CO,Colombia,female,45,54,30
+Bloodline,395212080662517,BR,Brazil,female,55,65,70
+Bloodline,395212080662517,DE,Germany,female,55,65,40
+Bloodline,395212080662517,NL,The Netherlands,female,55,65,80
+Bloodline,395212080662517,US,United States,female,25,34,22000
+Bloodline,395212080662517,AR,Argentina,female,55,65,80
+Bloodline,395212080662517,AU,Australia,female,55,65,140
+Bloodline,395212080662517,AR,Argentina,female,45,54,210
+Bloodline,395212080662517,AU,Australia,female,45,54,410
+Bloodline,395212080662517,GB,Great Britian,female,55,65,140
+Bloodline,395212080662517,NL,The Netherlands,female,45,54,220
+Bloodline,395212080662517,GB,Great Britian,female,45,54,370
+Bloodline,395212080662517,US,United States,female,55,65,12000
+Bloodline,395212080662517,FR,France,female,55,65,70
+Bloodline,395212080662517,MX,Mexico,female,35,44,190
+Bloodline,395212080662517,CA,Canada,female,55,65,470
+Bloodline,395212080662517,FR,France,female,25,34,580
+Bloodline,395212080662517,US,United States,female,35,44,27000
+Bloodline,395212080662517,CA,Canada,female,45,54,1000
+Bloodline,395212080662517,BR,Brazil,female,25,34,1200
+Luke Cage,6003322302109,DE,Germany,male,13,17,20
+Luke Cage,6003322302109,NL,The Netherlands,male,13,17,20
+Luke Cage,6003322302109,MX,Mexico,male,13,17,3300
+Luke Cage,6003322302109,IN,India,male,13,17,370
+Luke Cage,6003322302109,BR,Brazil,male,13,17,11000
+Luke Cage,6003322302109,AR,Argentina,male,13,17,390
+Luke Cage,6003322302109,CO,Colombia,male,13,17,530
+Luke Cage,6003322302109,FR,France,male,13,17,1600
+Luke Cage,6003322302109,GB,Great Britian,male,13,17,2600
+Luke Cage,6003322302109,US,United States,male,13,17,4400
+Luke Cage,6003322302109,CA,Canada,male,13,17,840
+Luke Cage,6003322302109,AU,Australia,male,13,17,2400
+Luke Cage,6003322302109,US,United States,male,18,24,68000
+Luke Cage,6003322302109,NL,The Netherlands,male,18,24,70
+Luke Cage,6003322302109,NL,The Netherlands,male,45,54,20
+Luke Cage,6003322302109,NL,The Netherlands,male,25,34,80
+Luke Cage,6003322302109,BR,Brazil,male,25,34,130000
+Luke Cage,6003322302109,NL,The Netherlands,male,55,65,20
+Luke Cage,6003322302109,NL,The Netherlands,male,35,44,20
+Luke Cage,6003322302109,DE,Germany,female,13,17,20
+Luke Cage,6003322302109,DE,Germany,male,55,65,20
+Luke Cage,6003322302109,NL,The Netherlands,female,13,17,20
+Luke Cage,6003322302109,DE,Germany,male,45,54,30
+Luke Cage,6003322302109,AR,Argentina,male,18,24,3200
+Luke Cage,6003322302109,BR,Brazil,male,18,24,140000
+Luke Cage,6003322302109,FR,France,male,25,34,58000
+Luke Cage,6003322302109,IN,India,male,18,24,2900
+Luke Cage,6003322302109,DE,Germany,male,18,24,210
+Luke Cage,6003322302109,IN,India,female,13,17,30
+Luke Cage,6003322302109,IN,India,male,45,54,60
+Luke Cage,6003322302109,IN,India,male,35,44,130
+Luke Cage,6003322302109,AU,Australia,female,13,17,40
+Luke Cage,6003322302109,NL,The Netherlands,female,18,24,30
+Luke Cage,6003322302109,IN,India,male,55,65,70
+Luke Cage,6003322302109,CO,Colombia,male,45,54,1200
+Luke Cage,6003322302109,FR,France,male,18,24,66000
+Luke Cage,6003322302109,BR,Brazil,male,35,44,98000
+Luke Cage,6003322302109,GB,Great Britian,male,25,34,13000
+Luke Cage,6003322302109,CA,Canada,male,18,24,8400
+Luke Cage,6003322302109,CO,Colombia,male,18,24,4300
+Luke Cage,6003322302109,CO,Colombia,male,55,65,1300
+Luke Cage,6003322302109,DE,Germany,male,35,44,130
+Luke Cage,6003322302109,MX,Mexico,male,18,24,20000
+Luke Cage,6003322302109,CO,Colombia,male,25,34,3500
+Luke Cage,6003322302109,GB,Great Britian,female,13,17,100
+Luke Cage,6003322302109,DE,Germany,female,18,24,70
+Luke Cage,6003322302109,IN,India,male,25,34,850
+Luke Cage,6003322302109,NL,The Netherlands,female,25,34,20
+Luke Cage,6003322302109,FR,France,male,35,44,32000
+Luke Cage,6003322302109,US,United States,male,25,34,130000
+Luke Cage,6003322302109,BR,Brazil,male,45,54,48000
+Luke Cage,6003322302109,AU,Australia,male,25,34,4400
+Luke Cage,6003322302109,AU,Australia,male,18,24,6800
+Luke Cage,6003322302109,MX,Mexico,male,45,54,1300
+Luke Cage,6003322302109,DE,Germany,female,25,34,70
+Luke Cage,6003322302109,MX,Mexico,male,35,44,5200
+Luke Cage,6003322302109,AR,Argentina,male,25,34,3300
+Luke Cage,6003322302109,AR,Argentina,female,13,17,90
+Luke Cage,6003322302109,DE,Germany,male,25,34,290
+Luke Cage,6003322302109,CO,Colombia,male,35,44,2200
+Luke Cage,6003322302109,GB,Great Britian,male,35,44,5100
+Luke Cage,6003322302109,IN,India,female,18,24,160
+Luke Cage,6003322302109,AR,Argentina,male,55,65,430
+Luke Cage,6003322302109,CA,Canada,male,25,34,12000
+Luke Cage,6003322302109,US,United States,male,35,44,74000
+Luke Cage,6003322302109,MX,Mexico,male,25,34,11000
+Luke Cage,6003322302109,FR,France,male,45,54,7600
+Luke Cage,6003322302109,CA,Canada,male,45,54,3400
+Luke Cage,6003322302109,AR,Argentina,male,45,54,570
+Luke Cage,6003322302109,FR,France,female,13,17,600
+Luke Cage,6003322302109,IN,India,female,25,34,60
+Luke Cage,6003322302109,MX,Mexico,male,55,65,640
+Luke Cage,6003322302109,CA,Canada,male,55,65,4800
+Luke Cage,6003322302109,BR,Brazil,male,55,65,28000
+Luke Cage,6003322302109,AU,Australia,male,35,44,1200
+Luke Cage,6003322302109,CA,Canada,female,13,17,500
+Luke Cage,6003322302109,DE,Germany,female,35,44,20
+Luke Cage,6003322302109,AR,Argentina,male,35,44,1700
+Luke Cage,6003322302109,AU,Australia,male,45,54,260
+Luke Cage,6003322302109,GB,Great Britian,male,55,65,350
+Luke Cage,6003322302109,AU,Australia,female,18,24,190
+Luke Cage,6003322302109,FR,France,male,55,65,9100
+Luke Cage,6003322302109,CO,Colombia,female,18,24,1200
+Luke Cage,6003322302109,US,United States,female,13,17,620
+Luke Cage,6003322302109,CO,Colombia,female,25,34,840
+Luke Cage,6003322302109,IN,India,female,35,44,20
+Luke Cage,6003322302109,FR,France,female,25,34,61000
+Luke Cage,6003322302109,GB,Great Britian,female,18,24,450
+Luke Cage,6003322302109,FR,France,female,18,24,77000
+Luke Cage,6003322302109,AU,Australia,female,35,44,40
+Luke Cage,6003322302109,BR,Brazil,female,25,34,43000
+Luke Cage,6003322302109,US,United States,male,55,65,7200
+Luke Cage,6003322302109,DE,Germany,female,45,54,20
+Luke Cage,6003322302109,NL,The Netherlands,female,45,54,20
+Luke Cage,6003322302109,AR,Argentina,female,18,24,1100
+Luke Cage,6003322302109,MX,Mexico,female,18,24,4700
+Luke Cage,6003322302109,CA,Canada,female,18,24,1700
+Luke Cage,6003322302109,IN,India,female,45,54,20
+Luke Cage,6003322302109,DE,Germany,female,55,65,20
+Luke Cage,6003322302109,CA,Canada,female,25,34,1900
+Luke Cage,6003322302109,AR,Argentina,female,25,34,920
+Luke Cage,6003322302109,IN,India,female,55,65,20
+Luke Cage,6003322302109,AU,Australia,female,25,34,150
+Luke Cage,6003322302109,AU,Australia,female,45,54,20
+Luke Cage,6003322302109,MX,Mexico,female,13,17,880
+Luke Cage,6003322302109,US,United States,female,18,24,6100
+Luke Cage,6003322302109,US,United States,female,25,34,10000
+Luke Cage,6003322302109,BR,Brazil,female,35,44,43000
+Luke Cage,6003322302109,GB,Great Britian,female,55,65,60
+Luke Cage,6003322302109,NL,The Netherlands,female,35,44,20
+Luke Cage,6003322302109,MX,Mexico,female,35,44,1600
+Luke Cage,6003322302109,US,United States,male,45,54,27000
+Luke Cage,6003322302109,GB,Great Britian,female,45,54,60
+Luke Cage,6003322302109,CO,Colombia,female,35,44,580
+Luke Cage,6003322302109,GB,Great Britian,female,35,44,190
+Luke Cage,6003322302109,CO,Colombia,female,55,65,460
+Luke Cage,6003322302109,FR,France,female,35,44,32000
+Luke Cage,6003322302109,AR,Argentina,female,55,65,150
+Luke Cage,6003322302109,CO,Colombia,female,13,17,120
+Luke Cage,6003322302109,AR,Argentina,female,45,54,210
+Luke Cage,6003322302109,CA,Canada,male,35,44,7500
+Luke Cage,6003322302109,AU,Australia,female,55,65,50
+Luke Cage,6003322302109,AR,Argentina,female,35,44,470
+Luke Cage,6003322302109,US,United States,female,35,44,7000
+Luke Cage,6003322302109,FR,France,female,55,65,18000
+Luke Cage,6003322302109,CA,Canada,female,55,65,9600
+Luke Cage,6003322302109,BR,Brazil,female,45,54,29000
+Luke Cage,6003322302109,CO,Colombia,female,45,54,400
+Luke Cage,6003322302109,GB,Great Britian,male,18,24,13000
+Luke Cage,6003322302109,BR,Brazil,female,13,17,2700
+Luke Cage,6003322302109,CA,Canada,female,35,44,1700
+Luke Cage,6003322302109,AU,Australia,male,55,65,230
+Luke Cage,6003322302109,GB,Great Britian,male,45,54,1200
+Luke Cage,6003322302109,MX,Mexico,female,55,65,420
+Luke Cage,6003322302109,BR,Brazil,female,55,65,20000
+Luke Cage,6003322302109,FR,France,female,45,54,14000
+Luke Cage,6003322302109,BR,Brazil,female,18,24,34000
+Luke Cage,6003322302109,GB,Great Britian,female,25,34,410
+Luke Cage,6003322302109,US,United States,female,55,65,2200
+Luke Cage,6003322302109,US,United States,female,45,54,3400
+Luke Cage,6003322302109,NL,The Netherlands,female,55,65,20
+Luke Cage,6003322302109,MX,Mexico,female,25,34,2600
+Luke Cage,6003322302109,MX,Mexico,female,45,54,650
+Luke Cage,6003322302109,CA,Canada,female,45,54,2400
+BoJack Horseman,866230890094581,DE,Germany,male,13,17,210
+BoJack Horseman,866230890094581,FR,France,male,13,17,570
+BoJack Horseman,866230890094581,IN,India,male,13,17,130
+BoJack Horseman,866230890094581,BR,Brazil,male,13,17,7700
+BoJack Horseman,866230890094581,NL,The Netherlands,male,13,17,40
+BoJack Horseman,866230890094581,CA,Canada,male,13,17,670
+BoJack Horseman,866230890094581,AR,Argentina,male,13,17,280
+BoJack Horseman,866230890094581,CO,Colombia,male,13,17,410
+BoJack Horseman,866230890094581,GB,Great Britian,male,13,17,1300
+BoJack Horseman,866230890094581,US,United States,male,13,17,2300
+BoJack Horseman,866230890094581,MX,Mexico,male,13,17,2000
+BoJack Horseman,866230890094581,AU,Australia,male,13,17,780
+BoJack Horseman,866230890094581,US,United States,male,18,24,56000
+BoJack Horseman,866230890094581,MX,Mexico,male,18,24,22000
+BoJack Horseman,866230890094581,BR,Brazil,male,18,24,39000
+BoJack Horseman,866230890094581,IN,India,male,35,44,30
+BoJack Horseman,866230890094581,NL,The Netherlands,male,55,65,20
+BoJack Horseman,866230890094581,IN,India,male,45,54,20
+BoJack Horseman,866230890094581,NL,The Netherlands,female,13,17,20
+BoJack Horseman,866230890094581,NL,The Netherlands,male,45,54,20
+BoJack Horseman,866230890094581,FR,France,male,45,54,50
+BoJack Horseman,866230890094581,CO,Colombia,male,55,65,40
+BoJack Horseman,866230890094581,IN,India,male,55,65,20
+BoJack Horseman,866230890094581,IN,India,female,13,17,20
+BoJack Horseman,866230890094581,CO,Colombia,male,45,54,20
+BoJack Horseman,866230890094581,NL,The Netherlands,male,35,44,120
+BoJack Horseman,866230890094581,AR,Argentina,male,45,54,20
+BoJack Horseman,866230890094581,DE,Germany,female,13,17,100
+BoJack Horseman,866230890094581,AR,Argentina,female,13,17,90
+BoJack Horseman,866230890094581,DE,Germany,male,45,54,70
+BoJack Horseman,866230890094581,MX,Mexico,male,45,54,90
+BoJack Horseman,866230890094581,AU,Australia,male,45,54,110
+BoJack Horseman,866230890094581,DE,Germany,male,55,65,120
+BoJack Horseman,866230890094581,FR,France,male,55,65,130
+BoJack Horseman,866230890094581,IN,India,male,18,24,1400
+BoJack Horseman,866230890094581,NL,The Netherlands,male,18,24,640
+BoJack Horseman,866230890094581,AR,Argentina,male,18,24,2700
+BoJack Horseman,866230890094581,GB,Great Britian,male,55,65,160
+BoJack Horseman,866230890094581,DE,Germany,male,18,24,4000
+BoJack Horseman,866230890094581,NL,The Netherlands,male,25,34,570
+BoJack Horseman,866230890094581,AR,Argentina,male,35,44,270
+BoJack Horseman,866230890094581,AR,Argentina,male,25,34,2200
+BoJack Horseman,866230890094581,BR,Brazil,male,35,44,2400
+BoJack Horseman,866230890094581,FR,France,female,13,17,250
+BoJack Horseman,866230890094581,CA,Canada,male,18,24,13000
+BoJack Horseman,866230890094581,CA,Canada,male,35,44,1600
+BoJack Horseman,866230890094581,AU,Australia,male,25,34,3700
+BoJack Horseman,866230890094581,GB,Great Britian,male,35,44,1200
+BoJack Horseman,866230890094581,CO,Colombia,male,25,34,1700
+BoJack Horseman,866230890094581,CA,Canada,male,55,65,400
+BoJack Horseman,866230890094581,AU,Australia,male,18,24,4500
+BoJack Horseman,866230890094581,BR,Brazil,male,25,34,17000
+BoJack Horseman,866230890094581,CA,Canada,female,13,17,280
+BoJack Horseman,866230890094581,IN,India,male,25,34,610
+BoJack Horseman,866230890094581,FR,France,male,25,34,3100
+BoJack Horseman,866230890094581,US,United States,male,35,44,11000
+BoJack Horseman,866230890094581,DE,Germany,female,18,24,1300
+BoJack Horseman,866230890094581,MX,Mexico,female,13,17,980
+BoJack Horseman,866230890094581,US,United States,female,13,17,1400
+BoJack Horseman,866230890094581,GB,Great Britian,female,13,17,450
+BoJack Horseman,866230890094581,CO,Colombia,male,18,24,3400
+BoJack Horseman,866230890094581,NL,The Netherlands,female,25,34,190
+BoJack Horseman,866230890094581,US,United States,male,25,34,52000
+BoJack Horseman,866230890094581,GB,Great Britian,male,45,54,200
+BoJack Horseman,866230890094581,CA,Canada,male,25,34,8800
+BoJack Horseman,866230890094581,AU,Australia,female,13,17,290
+BoJack Horseman,866230890094581,DE,Germany,male,35,44,610
+BoJack Horseman,866230890094581,BR,Brazil,male,45,54,400
+BoJack Horseman,866230890094581,AR,Argentina,male,55,65,30
+BoJack Horseman,866230890094581,IN,India,female,25,34,150
+BoJack Horseman,866230890094581,CO,Colombia,female,13,17,80
+BoJack Horseman,866230890094581,IN,India,female,18,24,330
+BoJack Horseman,866230890094581,NL,The Netherlands,female,18,24,230
+BoJack Horseman,866230890094581,MX,Mexico,male,35,44,1100
+BoJack Horseman,866230890094581,AU,Australia,male,35,44,730
+BoJack Horseman,866230890094581,FR,France,female,25,34,1000
+BoJack Horseman,866230890094581,MX,Mexico,female,18,24,6300
+BoJack Horseman,866230890094581,FR,France,male,18,24,5300
+BoJack Horseman,866230890094581,US,United States,female,18,24,31000
+BoJack Horseman,866230890094581,MX,Mexico,male,25,34,13000
+BoJack Horseman,866230890094581,US,United States,female,25,34,25000
+BoJack Horseman,866230890094581,GB,Great Britian,male,18,24,9400
+BoJack Horseman,866230890094581,GB,Great Britian,female,25,34,2800
+BoJack Horseman,866230890094581,CO,Colombia,male,35,44,140
+BoJack Horseman,866230890094581,AR,Argentina,female,25,34,650
+BoJack Horseman,866230890094581,BR,Brazil,female,13,17,5300
+BoJack Horseman,866230890094581,AU,Australia,female,25,34,1500
+BoJack Horseman,866230890094581,US,United States,male,45,54,2600
+BoJack Horseman,866230890094581,GB,Great Britian,male,25,34,7800
+BoJack Horseman,866230890094581,CA,Canada,female,18,24,5800
+BoJack Horseman,866230890094581,BR,Brazil,female,18,24,17000
+BoJack Horseman,866230890094581,AU,Australia,female,18,24,2100
+BoJack Horseman,866230890094581,DE,Germany,female,25,34,1200
+BoJack Horseman,866230890094581,GB,Great Britian,female,18,24,3800
+BoJack Horseman,866230890094581,MX,Mexico,female,25,34,2900
+BoJack Horseman,866230890094581,AR,Argentina,female,18,24,720
+BoJack Horseman,866230890094581,CA,Canada,female,25,34,3500
+BoJack Horseman,866230890094581,BR,Brazil,female,25,34,5800
+BoJack Horseman,866230890094581,IN,India,female,35,44,20
+BoJack Horseman,866230890094581,AU,Australia,male,55,65,90
+BoJack Horseman,866230890094581,DE,Germany,male,25,34,4300
+BoJack Horseman,866230890094581,FR,France,female,18,24,2200
+BoJack Horseman,866230890094581,NL,The Netherlands,female,35,44,30
+BoJack Horseman,866230890094581,FR,France,female,35,44,90
+BoJack Horseman,866230890094581,FR,France,male,35,44,390
+BoJack Horseman,866230890094581,CO,Colombia,female,25,34,180
+BoJack Horseman,866230890094581,BR,Brazil,male,55,65,510
+BoJack Horseman,866230890094581,CO,Colombia,female,18,24,450
+BoJack Horseman,866230890094581,CA,Canada,male,45,54,370
+BoJack Horseman,866230890094581,CO,Colombia,female,35,44,20
+BoJack Horseman,866230890094581,DE,Germany,female,35,44,130
+BoJack Horseman,866230890094581,BR,Brazil,female,35,44,1300
+BoJack Horseman,866230890094581,US,United States,male,55,65,1700
+BoJack Horseman,866230890094581,MX,Mexico,male,55,65,420
+BoJack Horseman,866230890094581,AR,Argentina,female,35,44,70
+BoJack Horseman,866230890094581,AU,Australia,female,35,44,240
+BoJack Horseman,866230890094581,US,United States,female,35,44,4800
+BoJack Horseman,866230890094581,CO,Colombia,female,45,54,20
+BoJack Horseman,866230890094581,NL,The Netherlands,female,45,54,20
+BoJack Horseman,866230890094581,BR,Brazil,female,45,54,560
+BoJack Horseman,866230890094581,GB,Great Britian,female,35,44,380
+BoJack Horseman,866230890094581,NL,The Netherlands,female,55,65,20
+BoJack Horseman,866230890094581,CO,Colombia,female,55,65,20
+BoJack Horseman,866230890094581,IN,India,female,55,65,20
+BoJack Horseman,866230890094581,DE,Germany,female,45,54,20
+BoJack Horseman,866230890094581,IN,India,female,45,54,20
+BoJack Horseman,866230890094581,AU,Australia,female,55,65,50
+BoJack Horseman,866230890094581,AR,Argentina,female,45,54,20
+BoJack Horseman,866230890094581,FR,France,female,45,54,20
+BoJack Horseman,866230890094581,AU,Australia,female,45,54,40
+BoJack Horseman,866230890094581,FR,France,female,55,65,60
+BoJack Horseman,866230890094581,CA,Canada,female,35,44,580
+BoJack Horseman,866230890094581,US,United States,female,45,54,1400
+BoJack Horseman,866230890094581,GB,Great Britian,female,55,65,80
+BoJack Horseman,866230890094581,DE,Germany,female,55,65,40
+BoJack Horseman,866230890094581,AR,Argentina,female,55,65,20
+BoJack Horseman,866230890094581,GB,Great Britian,female,45,54,70
+BoJack Horseman,866230890094581,MX,Mexico,female,45,54,40
+BoJack Horseman,866230890094581,MX,Mexico,female,55,65,130
+BoJack Horseman,866230890094581,CA,Canada,female,55,65,180
+BoJack Horseman,866230890094581,BR,Brazil,female,55,65,410
+BoJack Horseman,866230890094581,US,United States,female,55,65,1300
+BoJack Horseman,866230890094581,MX,Mexico,female,35,44,200
+BoJack Horseman,866230890094581,CA,Canada,female,45,54,150
+Sense8,1591077817809578,DE,Germany,male,13,17,70
+Sense8,1591077817809578,IN,India,male,13,17,90
+Sense8,1591077817809578,NL,The Netherlands,male,13,17,30
+Sense8,1591077817809578,FR,France,male,13,17,1100
+Sense8,1591077817809578,GB,Great Britian,male,13,17,170
+Sense8,1591077817809578,US,United States,male,13,17,400
+Sense8,1591077817809578,AU,Australia,male,13,17,160
+Sense8,1591077817809578,CA,Canada,male,13,17,100
+Sense8,1591077817809578,CO,Colombia,male,13,17,440
+Sense8,1591077817809578,AR,Argentina,male,13,17,190
+Sense8,1591077817809578,IN,India,male,18,24,2400
+Sense8,1591077817809578,NL,The Netherlands,male,18,24,750
+Sense8,1591077817809578,MX,Mexico,male,13,17,1800
+Sense8,1591077817809578,DE,Germany,male,18,24,2800
+Sense8,1591077817809578,BR,Brazil,male,13,17,21000
+Sense8,1591077817809578,BR,Brazil,male,18,24,140000
+Sense8,1591077817809578,FR,France,male,18,24,9900
+Sense8,1591077817809578,MX,Mexico,male,18,24,29000
+Sense8,1591077817809578,CA,Canada,male,18,24,2700
+Sense8,1591077817809578,GB,Great Britian,male,18,24,2400
+Sense8,1591077817809578,IN,India,male,35,44,90
+Sense8,1591077817809578,IN,India,male,25,34,1400
+Sense8,1591077817809578,CO,Colombia,male,35,44,1400
+Sense8,1591077817809578,NL,The Netherlands,male,35,44,630
+Sense8,1591077817809578,NL,The Netherlands,male,25,34,1100
+Sense8,1591077817809578,US,United States,male,18,24,25000
+Sense8,1591077817809578,AU,Australia,male,18,24,3100
+Sense8,1591077817809578,DE,Germany,male,25,34,3900
+Sense8,1591077817809578,CA,Canada,male,25,34,3400
+Sense8,1591077817809578,AR,Argentina,male,25,34,6300
+Sense8,1591077817809578,AU,Australia,male,25,34,4200
+Sense8,1591077817809578,GB,Great Britian,male,25,34,3300
+Sense8,1591077817809578,CO,Colombia,male,25,34,5700
+Sense8,1591077817809578,FR,France,male,25,34,6800
+Sense8,1591077817809578,CO,Colombia,male,18,24,7100
+Sense8,1591077817809578,AU,Australia,male,35,44,1100
+Sense8,1591077817809578,AR,Argentina,male,35,44,2700
+Sense8,1591077817809578,GB,Great Britian,male,35,44,2000
+Sense8,1591077817809578,MX,Mexico,male,35,44,6800
+Sense8,1591077817809578,DE,Germany,male,35,44,1600
+Sense8,1591077817809578,BR,Brazil,male,25,34,70000
+Sense8,1591077817809578,BR,Brazil,male,35,44,14000
+Sense8,1591077817809578,FR,France,male,35,44,2300
+Sense8,1591077817809578,US,United States,male,35,44,21000
+Sense8,1591077817809578,CA,Canada,male,35,44,1500
+Sense8,1591077817809578,MX,Mexico,male,25,34,27000
+Sense8,1591077817809578,AR,Argentina,male,18,24,3700
+Sense8,1591077817809578,US,United States,male,45,54,12000
+Sense8,1591077817809578,US,United States,male,25,34,43000
+Sense8,1591077817809578,IN,India,male,55,65,20
+Sense8,1591077817809578,IN,India,male,45,54,20
+Sense8,1591077817809578,NL,The Netherlands,male,55,65,60
+Sense8,1591077817809578,DE,Germany,male,55,65,140
+Sense8,1591077817809578,IN,India,female,13,17,40
+Sense8,1591077817809578,CO,Colombia,male,55,65,90
+Sense8,1591077817809578,AU,Australia,male,55,65,130
+Sense8,1591077817809578,DE,Germany,female,13,17,140
+Sense8,1591077817809578,GB,Great Britian,male,55,65,220
+Sense8,1591077817809578,CO,Colombia,male,45,54,190
+Sense8,1591077817809578,GB,Great Britian,male,45,54,820
+Sense8,1591077817809578,NL,The Netherlands,female,13,17,100
+Sense8,1591077817809578,MX,Mexico,male,45,54,1200
+Sense8,1591077817809578,MX,Mexico,male,55,65,610
+Sense8,1591077817809578,AR,Argentina,male,55,65,160
+Sense8,1591077817809578,FR,France,female,13,17,2200
+Sense8,1591077817809578,GB,Great Britian,female,13,17,340
+Sense8,1591077817809578,US,United States,female,13,17,800
+Sense8,1591077817809578,NL,The Netherlands,male,45,54,290
+Sense8,1591077817809578,AR,Argentina,male,45,54,590
+Sense8,1591077817809578,CA,Canada,female,13,17,150
+Sense8,1591077817809578,FR,France,male,55,65,280
+Sense8,1591077817809578,CO,Colombia,female,13,17,470
+Sense8,1591077817809578,IN,India,female,45,54,20
+Sense8,1591077817809578,BR,Brazil,female,13,17,40000
+Sense8,1591077817809578,CA,Canada,male,45,54,720
+Sense8,1591077817809578,BR,Brazil,male,45,54,2900
+Sense8,1591077817809578,BR,Brazil,male,55,65,1400
+Sense8,1591077817809578,AR,Argentina,female,13,17,260
+Sense8,1591077817809578,IN,India,female,35,44,60
+Sense8,1591077817809578,IN,India,female,55,65,20
+Sense8,1591077817809578,US,United States,male,55,65,6400
+Sense8,1591077817809578,IN,India,female,18,24,720
+Sense8,1591077817809578,GB,Great Britian,female,18,24,3000
+Sense8,1591077817809578,AR,Argentina,female,18,24,3800
+Sense8,1591077817809578,CO,Colombia,female,18,24,4400
+Sense8,1591077817809578,AU,Australia,female,13,17,220
+Sense8,1591077817809578,NL,The Netherlands,female,18,24,1200
+Sense8,1591077817809578,FR,France,female,18,24,12000
+Sense8,1591077817809578,MX,Mexico,female,18,24,21000
+Sense8,1591077817809578,DE,Germany,male,45,54,540
+Sense8,1591077817809578,DE,Germany,female,55,65,110
+Sense8,1591077817809578,CO,Colombia,female,55,65,70
+Sense8,1591077817809578,AU,Australia,female,18,24,1700
+Sense8,1591077817809578,IN,India,female,25,34,430
+Sense8,1591077817809578,DE,Germany,female,25,34,3400
+Sense8,1591077817809578,FR,France,female,25,34,6400
+Sense8,1591077817809578,BR,Brazil,female,25,34,71000
+Sense8,1591077817809578,US,United States,female,18,24,25000
+Sense8,1591077817809578,GB,Great Britian,female,45,54,680
+Sense8,1591077817809578,MX,Mexico,female,13,17,2100
+Sense8,1591077817809578,NL,The Netherlands,female,25,34,1200
+Sense8,1591077817809578,CA,Canada,female,18,24,2800
+Sense8,1591077817809578,NL,The Netherlands,female,35,44,560
+Sense8,1591077817809578,CO,Colombia,female,45,54,210
+Sense8,1591077817809578,CO,Colombia,female,35,44,870
+Sense8,1591077817809578,NL,The Netherlands,female,55,65,60
+Sense8,1591077817809578,MX,Mexico,female,25,34,18000
+Sense8,1591077817809578,GB,Great Britian,female,25,34,3100
+Sense8,1591077817809578,AU,Australia,female,35,44,1000
+Sense8,1591077817809578,AU,Australia,female,55,65,120
+Sense8,1591077817809578,FR,France,male,45,54,540
+Sense8,1591077817809578,GB,Great Britian,female,55,65,190
+Sense8,1591077817809578,DE,Germany,female,35,44,1200
+Sense8,1591077817809578,US,United States,female,25,34,54000
+Sense8,1591077817809578,AR,Argentina,female,45,54,630
+Sense8,1591077817809578,CO,Colombia,female,25,34,2900
+Sense8,1591077817809578,AR,Argentina,female,35,44,2600
+Sense8,1591077817809578,BR,Brazil,female,35,44,16000
+Sense8,1591077817809578,CA,Canada,female,25,34,3000
+Sense8,1591077817809578,US,United States,female,35,44,42000
+Sense8,1591077817809578,AU,Australia,female,45,54,420
+Sense8,1591077817809578,AR,Argentina,female,25,34,5900
+Sense8,1591077817809578,AU,Australia,female,25,34,1800
+Sense8,1591077817809578,MX,Mexico,female,45,54,910
+Sense8,1591077817809578,MX,Mexico,female,35,44,4600
+Sense8,1591077817809578,NL,The Netherlands,female,45,54,220
+Sense8,1591077817809578,GB,Great Britian,female,35,44,1700
+Sense8,1591077817809578,FR,France,female,45,54,420
+Sense8,1591077817809578,CA,Canada,female,35,44,1700
+Sense8,1591077817809578,CA,Canada,female,45,54,720
+Sense8,1591077817809578,FR,France,female,35,44,1700
+Sense8,1591077817809578,BR,Brazil,female,55,65,2000
+Sense8,1591077817809578,DE,Germany,female,45,54,270
+Sense8,1591077817809578,CA,Canada,male,55,65,310
+Sense8,1591077817809578,DE,Germany,female,18,24,2500
+Sense8,1591077817809578,CA,Canada,female,55,65,330
+Sense8,1591077817809578,MX,Mexico,female,55,65,530
+Sense8,1591077817809578,BR,Brazil,female,45,54,4700
+Sense8,1591077817809578,FR,France,female,55,65,350
+Sense8,1591077817809578,US,United States,female,45,54,22000
+Sense8,1591077817809578,AU,Australia,male,45,54,360
+Sense8,1591077817809578,AR,Argentina,female,55,65,250
+Sense8,1591077817809578,BR,Brazil,female,18,24,170000
+Sense8,1591077817809578,US,United States,female,55,65,9700
+Jessica Jones,6003327701771,DE,Germany,male,13,17,20
+Jessica Jones,6003327701771,FR,France,male,13,17,150
+Jessica Jones,6003327701771,IN,India,male,13,17,300
+Jessica Jones,6003327701771,GB,Great Britian,male,13,17,1800
+Jessica Jones,6003327701771,MX,Mexico,male,13,17,5700
+Jessica Jones,6003327701771,NL,The Netherlands,male,13,17,20
+Jessica Jones,6003327701771,NL,The Netherlands,male,18,24,30
+Jessica Jones,6003327701771,IN,India,male,18,24,1600
+Jessica Jones,6003327701771,AR,Argentina,male,13,17,440
+Jessica Jones,6003327701771,DE,Germany,male,18,24,100
+Jessica Jones,6003327701771,CO,Colombia,male,13,17,530
+Jessica Jones,6003327701771,US,United States,male,13,17,2000
+Jessica Jones,6003327701771,CA,Canada,male,13,17,270
+Jessica Jones,6003327701771,BR,Brazil,male,13,17,6500
+Jessica Jones,6003327701771,FR,France,male,18,24,520
+Jessica Jones,6003327701771,AR,Argentina,male,18,24,3500
+Jessica Jones,6003327701771,AU,Australia,male,13,17,1400
+Jessica Jones,6003327701771,IN,India,male,25,34,1100
+Jessica Jones,6003327701771,NL,The Netherlands,male,25,34,40
+Jessica Jones,6003327701771,NL,The Netherlands,male,35,44,30
+Jessica Jones,6003327701771,IN,India,male,45,54,50
+Jessica Jones,6003327701771,DE,Germany,male,25,34,160
+Jessica Jones,6003327701771,FR,France,male,25,34,370
+Jessica Jones,6003327701771,DE,Germany,male,35,44,140
+Jessica Jones,6003327701771,IN,India,male,35,44,240
+Jessica Jones,6003327701771,NL,The Netherlands,male,55,65,20
+Jessica Jones,6003327701771,CO,Colombia,male,25,34,2100
+Jessica Jones,6003327701771,AR,Argentina,male,25,34,3700
+Jessica Jones,6003327701771,FR,France,male,55,65,40
+Jessica Jones,6003327701771,IN,India,male,55,65,40
+Jessica Jones,6003327701771,DE,Germany,male,55,65,20
+Jessica Jones,6003327701771,DE,Germany,male,45,54,90
+Jessica Jones,6003327701771,DE,Germany,female,13,17,20
+Jessica Jones,6003327701771,CO,Colombia,male,45,54,190
+Jessica Jones,6003327701771,IN,India,female,13,17,30
+Jessica Jones,6003327701771,NL,The Netherlands,female,13,17,20
+Jessica Jones,6003327701771,BR,Brazil,male,45,54,910
+Jessica Jones,6003327701771,FR,France,female,13,17,90
+Jessica Jones,6003327701771,MX,Mexico,male,45,54,1200
+Jessica Jones,6003327701771,AR,Argentina,male,45,54,300
+Jessica Jones,6003327701771,AU,Australia,male,55,65,80
+Jessica Jones,6003327701771,FR,France,male,45,54,60
+Jessica Jones,6003327701771,CO,Colombia,male,35,44,620
+Jessica Jones,6003327701771,NL,The Netherlands,male,45,54,20
+Jessica Jones,6003327701771,AR,Argentina,male,35,44,1400
+Jessica Jones,6003327701771,AR,Argentina,male,55,65,100
+Jessica Jones,6003327701771,NL,The Netherlands,female,18,24,20
+Jessica Jones,6003327701771,AU,Australia,female,13,17,50
+Jessica Jones,6003327701771,CA,Canada,male,45,54,880
+Jessica Jones,6003327701771,DE,Germany,female,18,24,40
+Jessica Jones,6003327701771,GB,Great Britian,male,45,54,580
+Jessica Jones,6003327701771,CA,Canada,female,13,17,80
+Jessica Jones,6003327701771,BR,Brazil,male,55,65,130
+Jessica Jones,6003327701771,CA,Canada,male,55,65,260
+Jessica Jones,6003327701771,MX,Mexico,male,55,65,740
+Jessica Jones,6003327701771,IN,India,female,18,24,140
+Jessica Jones,6003327701771,CO,Colombia,female,13,17,230
+Jessica Jones,6003327701771,FR,France,female,25,34,70
+Jessica Jones,6003327701771,GB,Great Britian,male,55,65,220
+Jessica Jones,6003327701771,MX,Mexico,female,13,17,2900
+Jessica Jones,6003327701771,GB,Great Britian,female,13,17,1600
+Jessica Jones,6003327701771,FR,France,female,18,24,110
+Jessica Jones,6003327701771,US,United States,female,13,17,470
+Jessica Jones,6003327701771,BR,Brazil,female,13,17,4000
+Jessica Jones,6003327701771,AR,Argentina,female,13,17,220
+Jessica Jones,6003327701771,CO,Colombia,male,55,65,170
+Jessica Jones,6003327701771,CO,Colombia,male,18,24,3200
+Jessica Jones,6003327701771,CO,Colombia,female,18,24,1700
+Jessica Jones,6003327701771,CA,Canada,female,18,24,960
+Jessica Jones,6003327701771,MX,Mexico,male,18,24,41000
+Jessica Jones,6003327701771,CA,Canada,male,18,24,3400
+Jessica Jones,6003327701771,AU,Australia,male,18,24,3000
+Jessica Jones,6003327701771,GB,Great Britian,male,18,24,10000
+Jessica Jones,6003327701771,US,United States,male,18,24,30000
+Jessica Jones,6003327701771,BR,Brazil,male,18,24,27000
+Jessica Jones,6003327701771,FR,France,male,35,44,140
+Jessica Jones,6003327701771,BR,Brazil,male,25,34,17000
+Jessica Jones,6003327701771,US,United States,male,25,34,60000
+Jessica Jones,6003327701771,BR,Brazil,male,35,44,4200
+Jessica Jones,6003327701771,MX,Mexico,male,25,34,22000
+Jessica Jones,6003327701771,GB,Great Britian,male,35,44,3600
+Jessica Jones,6003327701771,CA,Canada,male,25,34,4300
+Jessica Jones,6003327701771,MX,Mexico,male,35,44,5800
+Jessica Jones,6003327701771,AU,Australia,male,25,34,4300
+Jessica Jones,6003327701771,AU,Australia,male,45,54,880
+Jessica Jones,6003327701771,GB,Great Britian,male,25,34,8800
+Jessica Jones,6003327701771,US,United States,male,35,44,32000
+Jessica Jones,6003327701771,AU,Australia,male,35,44,1800
+Jessica Jones,6003327701771,CA,Canada,male,35,44,2600
+Jessica Jones,6003327701771,US,United States,male,45,54,12000
+Jessica Jones,6003327701771,AR,Argentina,female,18,24,2500
+Jessica Jones,6003327701771,BR,Brazil,female,18,24,12000
+Jessica Jones,6003327701771,US,United States,female,18,24,6100
+Jessica Jones,6003327701771,US,United States,male,55,65,3600
+Jessica Jones,6003327701771,MX,Mexico,female,18,24,25000
+Jessica Jones,6003327701771,GB,Great Britian,female,18,24,2000
+Jessica Jones,6003327701771,MX,Mexico,female,25,34,14000
+Jessica Jones,6003327701771,NL,The Netherlands,female,25,34,20
+Jessica Jones,6003327701771,NL,The Netherlands,female,35,44,20
+Jessica Jones,6003327701771,IN,India,female,25,34,60
+Jessica Jones,6003327701771,IN,India,female,35,44,20
+Jessica Jones,6003327701771,DE,Germany,female,35,44,30
+Jessica Jones,6003327701771,FR,France,female,35,44,20
+Jessica Jones,6003327701771,BR,Brazil,female,25,34,7100
+Jessica Jones,6003327701771,DE,Germany,female,25,34,60
+Jessica Jones,6003327701771,AU,Australia,female,18,24,210
+Jessica Jones,6003327701771,IN,India,female,45,54,20
+Jessica Jones,6003327701771,NL,The Netherlands,female,45,54,20
+Jessica Jones,6003327701771,FR,France,female,55,65,20
+Jessica Jones,6003327701771,FR,France,female,45,54,20
+Jessica Jones,6003327701771,DE,Germany,female,45,54,20
+Jessica Jones,6003327701771,DE,Germany,female,55,65,20
+Jessica Jones,6003327701771,NL,The Netherlands,female,55,65,20
+Jessica Jones,6003327701771,BR,Brazil,female,55,65,70
+Jessica Jones,6003327701771,US,United States,female,25,34,11000
+Jessica Jones,6003327701771,IN,India,female,55,65,20
+Jessica Jones,6003327701771,CO,Colombia,female,45,54,160
+Jessica Jones,6003327701771,CA,Canada,female,35,44,620
+Jessica Jones,6003327701771,MX,Mexico,female,35,44,3700
+Jessica Jones,6003327701771,AR,Argentina,female,25,34,2500
+Jessica Jones,6003327701771,CO,Colombia,female,25,34,940
+Jessica Jones,6003327701771,GB,Great Britian,female,35,44,690
+Jessica Jones,6003327701771,AU,Australia,female,55,65,50
+Jessica Jones,6003327701771,GB,Great Britian,female,25,34,1500
+Jessica Jones,6003327701771,CO,Colombia,female,35,44,280
+Jessica Jones,6003327701771,AR,Argentina,female,45,54,260
+Jessica Jones,6003327701771,AU,Australia,female,35,44,580
+Jessica Jones,6003327701771,CA,Canada,female,25,34,1400
+Jessica Jones,6003327701771,CO,Colombia,female,55,65,140
+Jessica Jones,6003327701771,AU,Australia,female,45,54,360
+Jessica Jones,6003327701771,GB,Great Britian,female,45,54,190
+Jessica Jones,6003327701771,AR,Argentina,female,35,44,890
+Jessica Jones,6003327701771,MX,Mexico,female,45,54,1100
+Jessica Jones,6003327701771,MX,Mexico,female,55,65,270
+Jessica Jones,6003327701771,US,United States,female,35,44,7600
+Jessica Jones,6003327701771,AR,Argentina,female,55,65,50
+Jessica Jones,6003327701771,BR,Brazil,female,45,54,640
+Jessica Jones,6003327701771,GB,Great Britian,female,55,65,90
+Jessica Jones,6003327701771,CA,Canada,female,55,65,150
+Jessica Jones,6003327701771,CA,Canada,female,45,54,210
+Jessica Jones,6003327701771,US,United States,female,45,54,3600
+Jessica Jones,6003327701771,BR,Brazil,female,35,44,2100
+Jessica Jones,6003327701771,US,United States,female,55,65,3100
+Jessica Jones,6003327701771,AU,Australia,female,25,34,1100
