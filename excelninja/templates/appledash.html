@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+  <head>
+    <title>Spotify vs Apple Music Paid Subscriber Estimator</title>
+       <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+
+       <script src="/static/js/Chart-2.3.0.js"></script>
+       <script src="/static/js/jquery-2.2.4.min.js"></script>
+       <script src="/static/js/appledash.js"></script>
+       <script src="/static/js/jquery.tokenize.js"></script>
+
+       <link  href="/static/css/jquery.tokenize.css" rel="stylesheet" />
+       <link  href="/static/css/font-awesome.min.css" rel="stylesheet" />
+       <link  href="/static/css/appledash.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12" style="vertical-align: middle; text-align: left;">
+          <h3 class="pagetitle"><img src="/static/img/spotify-icon.png" width=30> vs <img src="/static/img/apple-icon.jpg" width=30> Subscriber Estimates Dash </h3>
+        </div>
+      <div class="row" >
+        <div class="col-md-6 col2x" style="vertical-align: middle; text-align: left;">
+          <label for="country-input"><i class="fa fa-flag fa-2x" aria-hidden="true"></i></label>
+          <select class="country-input" multiple>
+            {% for datum in countries %}
+              <option value="{{ datum.country }}" {{ datum.selected }}>{{ datum.country }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-3 col1x" style="vertical-align: middle; text-align: left;">
+          <label for="gender-input"><i class="fa fa-female fa-2x" aria-hidden="true"></i> <i class="fa fa-male fa-2x" aria-hidden="true"></i></label>
+          <select class="gender-input" multiple>
+          {% for datum in genders %}
+            <option value="{{ datum.gender }}" {{ datum.selected }}>{{ datum.gender }}</option>
+          {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-3 col1x" style="vertical-align: middle; text-align: left;">
+          <label for="age_range-input"><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child fa-2x" aria-hidden="true"></i></label>
+          <select class="age_range-input" multiple>
+            {% for datum in age_ranges %}
+              <option value="{{ datum.age_range }}" {{ datum.selected }}>{{ datum.age_range }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" >
+
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class="text-center">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+              Country Paid Subscribers<br>
+              <span style="background-color: #04cf64; border-radius: 5px; ">&nbsp;&nbsp;<font style="color: white; font-weight: 500;" class="small">spotify</font>&nbsp;&nbsp;</span> 
+              <span style="background-color: #740d69; border-radius: 5px;">&nbsp;&nbsp;<font style="color: white; font-weight: 500;" class="small">apple music</font>&nbsp;&nbsp;</span>
+            </h4>
+
+
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol1'> 
+            <canvas id="countrydau"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">Estimated Paid Subscribers by Country by Platform</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class=text-center><i class="fa fa-mobile" aria-hidden="true"></i> iOS Penetration </h4><br>
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol2'> 
+            <canvas id="countrypenetration"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">Estimated iOS Penentration (Paid Subscribers / All iOS Users) by Country</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div class="clearfix visible-md-block"></div>
+
+        <div class="col-md-3 col-xs-6 col1x">
+          <div class="chartheader">
+            <h4 class="text-center"><i class="fa fa-user"></i> Age</h4><br>
+          </div>
+          <div class="clear"></div>
+          <div id='chartcol3'> 
+            <canvas id="agepct"></canvas>
+          </div>
+          <div class="clear"></div>
+          <div class="chartfooter">
+            <p class="small">Estimated Paid Subscribers/Platform Paid Subscribers by Age</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+          <div id='chartcol4spotify'> 
+            <h4 class="text-center"><img src="/static/img/spotify-icon.png" width=25> Gender</h4><br>
+            <hr>
+            <canvas id="genderpctspotify"></canvas>
+            <div id=genderlegendspotify></div>
+          </div>
+          <br><br><br><br><br>
+          <div id='chartcol4applemusic'> 
+            <h4 class="text-center"><img src="/static/img/apple-icon.jpg" width=25> Gender</h4>
+            <hr>
+            <canvas id="genderpctapplemusic"></canvas>
+            <div id=genderlegendapplemusic></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix visible-md-block"></div>
+      <br><br><br><br>
+      <div class="row" >
+       <div id="footertext" class="col-md-6 clearfix" style="padding-left: 20px">
+       <h4>About this Dashboard</h4>
+       <p>This dashboard leverages publicly accessible data from the <a href=https://www.facebook.com/ads/create target='_blank'>Facebook Ads interface</a> as well as
+       media statements from Apple, Spotify, and media sources on the web to estimate subscriber and smartphone market share by age, gender, and country</p>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<script>
+
+create_or_update_apple_charts()
+
+// ------------------------------------------------------------------------
+// Processes typeahead for tokens as well as updates graphs as 
+// new tokens are added or removed
+
+$('.gender-input').tokenize({
+   displayDropdownOnFocus:true,
+   placeholder: 'Genders, eg female',
+   onAddToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   },
+   onRemoveToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   }
+});
+
+$('.age_range-input').tokenize({
+   displayDropdownOnFocus:true,
+   placeholder: 'Age Ranges, eg 18-24',
+   onAddToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   },
+   onRemoveToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   }
+});
+
+$('.country-input').tokenize({
+   displayDropdownOnFocus:true,
+   placeholder: 'Countries, eg United States',
+   onAddToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   },
+   onRemoveToken: function(value, text, e) {
+    create_or_update_apple_charts();
+   }
+});
+
+</script>

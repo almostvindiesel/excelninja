@@ -19,6 +19,7 @@ from excelninja import app
 from models import db
 from snapinstadash import *
 from netflixdash import *
+from appledash import *
 
 
 
