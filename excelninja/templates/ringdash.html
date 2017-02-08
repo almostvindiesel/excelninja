@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Households by DMA</title>
+
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="mapcontainer">
+      <h1><img src=/static/img/ring-icon.png width=50px> Sales & Homeownership by DMA</h1>
+      <p>Template dashboard Outlining Homeowners, Ring Sales, and % of Ring Sales for Homeowners by DMA</p>
+    </div>
+
+    <div id="buttontoggle">
+
+      <form id="dmafocus">
+        <ul class="map-button-toggle">
+          <li>
+              <input type="radio" id="ring_sales" name="dmameasure"  checked="checked" />
+              <label for="ring_sales">Ring Sales</label>
+          </li>
+          <li>
+              <input type="radio" id="ring_ho_penetration" name="dmameasure"/>
+              <label for="ring_ho_penetration">Ring Sales as % of Homeowners</label>
+          </li>
+          <li>
+              <input type="radio" id="homeowners" name="dmameasure"  />
+              <label for="homeowners">Homeowners</label>
+          </li>
+
+        </ul>
+        </form>
+      <br>
+    </div>
+    <br><br>
+
+
+    <div id='datatablecontainer'></div>
+
+  <!--<div id='highlighted'>Nothing Highlighted</div>
+  <div id='selected'>Nothing Selected</div>-->
+ 
+
+  <script src="http://d3js.org/d3.v3.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="/static/js/jquery-2.2.4.min.js"></script>
+  <script src="/static/js/data-table.js"></script>
+  <script src="/static/data/dma-all.js"></script>
+
+  <script src="/static/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/ringdash.css">
+
+  <script>
+
+    // --------------------------------------------------------
+
+    function renderDmaMap() {
+
+      focus_measure = $('input[name=dmameasure]:checked', '#dmafocus')[0].id;
+
+      // Determins the window width for displaying the chart
+      var width = Math.min(window.innerWidth * .90, 700) 
+      var height = .7 * width;
+
+      // sets the type of view
+      var projection = d3.geo.albersUsa()
+          .scale(width *1.4) // size, bigger is bigger
+          .translate([width / 2, height / 2]);
+
+      //Creates a new geographic path generator
+      var path = d3.geo.path().projection(projection);
+      var xScale = d3.scale.linear()
+          .domain([0, 7])
+          .range([0, 500]);
+
+      var xAxis = d3.svg.axis()
+          .scale(xScale)
+          .orient("bottom")
+          .tickSize(13)
+          .tickFormat(d3.format("0.0f"));
+
+      // Colors of States
+      var underIdx = d3.rgb(186, 212, 255);
+      var equalIdx = d3.rgb(44, 112, 221);
+      var overIdx = d3.rgb(0, 55, 145);
+
+
+      //set svg window
+      $( "svg" ).remove();
+      var svg = d3.select("#mapcontainer")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+
+      var graticule = d3.geo.graticule()
+          .extent([[-98 - 45, 38 - 45], [-98 + 45, 38 + 45]])
+          .step([5, 5]);
+
+      var div = d3.select("#container")
+                .append("div")
+                .attr("class", "d3-tip")
+                .style("opacity", 0);
+
+      // adding a blank background
+      svg.append("rect")
+          .datum(graticule)
+          .attr("class", "background")
+          .attr("width", width)
+          .attr("height", height)
+         // .on("click", clicked);
+
+      //declare g as our appended svg
+      var g = svg.append("g");
+
+      var defaultFill = "#aaa";
+
+      // Household Data
+      d3.json("/static/data/dma-all.json", function(error, dma_data) {
+
+        // Topography Properties
+        d3.json("/static/data/nielsentopo.json", function(error, dma) {
+
+          var nielsen = dma.objects.nielsen_dma.geometries;
+          var dmaData = [];
+          var maxIdx = -1;
+          var minIdx = 1000000;
+          var sumFocusMeasure = 0;
+
+          for(var i = 0; i < dma_data.length; i++){
+            var dmaElem = dma_data[i];
+            var k = dma_data[i].key.split(":");
+
+            sumFocusMeasure += parseFloat(dmaElem[focus_measure].replace(/,/g, "").replace("%", ""));
+            dmaElem.code = k[1];
+            dmaElem.name = dma_data[i].key;
+            dmaElem.focus_measure = dma_data[i][focus_measure];
+            dmaElem.color = equalIdx;
+            dmaData.push(dmaElem);
+            
+            if(maxIdx < parseFloat(dmaElem[focus_measure].replace(/,/g, "").replace("%", ""))) {
+              maxIdx = dmaElem[focus_measure].replace(/,/g, "").replace("%", "");
+            }
+
+            if(minIdx > parseFloat(dmaElem[focus_measure].replace(/,/g, "").replace("%", ""))) {
+              minIdx = dmaElem[focus_measure].replace(/,/g, "").replace("%", "");
+            }
+          }
+
+          var midIdx = sumFocusMeasure / dma_data.length;
+          //console.log("min: " + minIdx);
+          //console.log("middle: " + midIdx);
+          //console.log("max: " + maxIdx);
+
+          //Set Color of Each DMA
+          var color = d3.scale.linear()
+            .domain([minIdx, midIdx, maxIdx])
+            .range([underIdx, equalIdx, overIdx]);
+          for(var i=0; i < dmaData.length; i++){    
+            dmaData[i].color = color(dmaData[i][focus_measure].replace(/,/g, "").replace("%", ""));
+          }
+
+
+
+          // Join Extracted DMA Data with Topography Data
+          for (var i = 0; i < nielsen.length; i++){
+            var dma_code = nielsen[i].id;
+
+            for(var j=0; j < dmaData.length; j++){
+              if(dma_code == dmaData[j].code){
+                nielsen[i].properties[dma_code] = dmaData[j].code;
+                nielsen[i].properties["coreIdx"] = dmaData[j][focus_measure];
+                nielsen[i].properties["coreReach"] = dmaData[j][focus_measure];
+                nielsen[i].properties["population"] = dmaData[j].population;
+                nielsen[i].properties["homeowners"] = dmaData[j].homeowners;
+                nielsen[i].properties["ring_sales"] = dmaData[j].ring_sales;
+                nielsen[i].properties["ring_ho_penetration"] = dmaData[j].ring_ho_penetration;
+
+                nielsen[i].properties["color"] = dmaData[j].color;
+                nielsen[i].properties["name"] = dmaData[j].name;
+              }
+            }
+          }
+
+            
+            // console.log(nielsen.length);
+
+          dma.objects.nielsen_dma.geometries = nielsen;
+
+          g.append("g")
+            .attr("id", "dmas")
+            .selectAll("path")
+            .data(topojson.feature(dma, dma.objects.nielsen_dma).features)
+            .enter()
+            .append("path")
+            .attr("d", path);
+            //.on("click", clicked)
+             
+
+            
+            g.selectAll("path")
+              .on("mouseover", function(d){
+
+              var prop = d.properties;  
+              d3.select(this)
+              .attr("fill", d3.rgb(230, 230, 230));
+
+              div.transition()    
+                  .duration(200)    
+                  .style("opacity", .8);   
+              div.html(function(d){
+                    var string = "<h3>" + prop.dma1 + "</h3>"
+                    string += "Population: " + prop.coreReach  + "<br>";
+                    string += "Homeowners: " + prop.homeowners + "<br>";
+                    string += "Ring Sales: " + prop.ring_sales + "<br>";
+                    string += "% Homeowner Pen: " + prop.ring_ho_penetration;
+                    return string; 
+                  })
+                  .style("left", (d3.event.pageX) + "px")
+                  .style("top", (d3.event.pageY) + "px");
+
+            })
+
+            .on("mouseout", function(d){
+              var prop = d.properties;  
+              d3.select(this)
+              .attr("fill", function(d){
+                return d.properties.color;
+              });
+              div.transition()    
+                  .duration(200)    
+                  .style("opacity", 0); 
+            })
+            
+            .attr("opacity", 1)
+            .attr("fill", function(d){
+              return d.properties.color;
+            });
+
+          // add dma borders
+            g.append("path", ".graticule")
+              .datum(topojson.mesh(dma, dma.objects.nielsen_dma, function(a, b) { 
+                return true;
+              }))
+              .attr("id", "dma-borders")
+              .attr("d", path);
+          })
+        })  
+    }
+
+    //Get's the focus measure for displaying the chart
+    var focus_measure = $('input[name=dmameasure]:checked', '#dmafocus')[0].id;
+    renderDmaMap(focus_measure);
+
+
+
+    // --------------------------------------------------------
+    // Listeners
+
+    //Resize Map on Window Size Change
+    window.addEventListener("resize", renderDmaMap);
+
+    //Redraw Map on item selection change
+    $('#dmafocus input').on('change', function() {
+      renderDmaMap();
+    });
+
+
+  </script>
+
+
+  <script>
+    var table_plot = makeTable()
+      .datum(dma_data)
+     // .datum(gene_data)
+      .sortBy('dma', true)
+      .filterCols(['col', 'x', 'y']);
+
+    d3.select('#datatablecontainer').call(table_plot);
+
+    /*
+    table_plot.on('highlight', function(data, on_off){
+      if(on_off){//if the data is highlighted
+        d3.select('#highlighted').text(
+          'Oops, I just stepped over gene ' + data.symb
+        );
+      }
+    });
+    table_plot.on('select', function(data, on_off){
+      if(on_off){//if the data is highlighted
+        d3.select('#selected').text(
+          'And it was the chosen one ' + data.GeneID
+        );
+      }
+    });
+    */
+
+
+  </script>
+
+</body>
+</html>

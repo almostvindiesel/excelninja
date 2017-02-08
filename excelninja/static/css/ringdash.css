@@ -1,0 +1,124 @@
+  .background {
+    fill: none;
+    pointer-events: all;
+  }
+
+  .graticule {
+    fill: none;
+    stroke: #777;
+    stroke-width: .5;
+    stroke-opacity: 1.0;
+  }
+
+  #dma-borders {
+    fill: none;
+    stroke: gray;
+    stroke-width: 0.7;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+  }
+
+  div.d3-tip {
+    position: absolute;     
+    text-align: left;     
+    width: 230px;          
+    height: 100px;         
+    padding: 4px;
+    padding-left: 10px;       
+    font: 10px sans-serif;    
+    color: white;
+    background: black; 
+    border: 0px;    
+    /*border-radius: 8px;     */
+    pointer-events: none;   
+  }
+
+  span.index{
+    font: 17px sans-serif; 
+    margin-top: 4px;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+
+  h1, h2 {
+    font-family: sans-serif;
+
+  /*
+    padding-left: 30px;
+    padding-top: 10px;*/
+
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 100;
+    color:#515151;
+  }
+
+  p {
+  	font-size: 12px;
+  }
+
+  h2 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  #container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 5px;
+    background-color: white;
+    border: 0px solid #ccc;
+    /*box-shadow: 3px 3px 5px 6px #ccc;*/
+  }
+
+  .map-button-toggle {
+    list-style-type:none;
+    margin:20px 0 0 0;
+    padding:0;
+  }
+
+  .map-button-toggle li {
+    float:left;
+    text-align: center;
+    font-weight: 600;
+    margin:0 5px 0 0;
+    width:140px;
+    height:45px;
+    position:relative;
+  }
+
+  .map-button-toggle label, .map-button-toggle input {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    vertical-align: middle;
+  }
+
+  .map-button-toggle input[type="radio"] {
+    opacity:0.011;
+    z-index:100;
+
+  }
+
+  .map-button-toggle input[type="radio"]:checked + label {
+    background:#4965f6;
+    color: white;
+  }
+
+  .map-button-toggle label {
+   padding:3px;
+   border: 1px solid #CCC; 
+   cursor: pointer;
+   z-index: 90;
+  }
+
+  .map-button-toggle label:hover {
+   background:#9aaafa;
+  }

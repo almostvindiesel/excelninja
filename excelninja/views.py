@@ -29,5 +29,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?R#LDK'
 
-
+@app.route('/ring', methods=['GET'])
+def ring_dmas():
+    return render_template('ringdash.html')
 
