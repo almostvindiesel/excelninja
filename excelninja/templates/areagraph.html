@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tweets by Topic</title>
+    <meta charset="utf-8">
+
+
+    <link href="/static/css/nv.d3.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/areagraph.css" rel="stylesheet" type="text/css">
+
+    <script src="/static/js/jquery-3.2.1.js"></script>
+    <script src="/static/js/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+    <script src="/static/js/nv.d3.js"></script>
+    <script src="/static/js/areagraphdata.js"></script>
+
+    <script src="/static/js/areagraph.js"></script>
+
+    <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <script src="/static/js/bootstrap.js"></script>
+
+    <script>
+
+        var colors = d3.scale.category20();
+
+        var chart;
+        nv.addGraph(function() {
+            chart = nv.models.stackedAreaChart()
+                .useInteractiveGuideline(true)
+                .x(function(d) { return d[0] })
+                .y(function(d) { return d[1] })
+                .controlLabels({stacked: "Stacked"})
+                .duration(300);
+
+            chart.xAxis.tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
+            chart.yAxis.tickFormat(d3.format(',.0f'));
+            chart.legend.vers('furious');
+            
+
+            d3.select('#chart1')
+                .datum(tweetdata)
+                .transition().duration(1000)
+                .call(chart)
+                .each('start', function() {
+                    setTimeout(function() {
+                        d3.selectAll('#chart1 *').each(function() {
+                            if(this.__transition__)
+                                this.__transition__.duration = 1;
+                        })
+                    }, 0)
+                });
+
+            nv.utils.windowResize(chart.update);
+            return chart;
+        });
+
+    </script>
+
+
+</head>
+
+<h3>Tweet Topics</h3>
+<body class="chart1">
+<!--<body class='with-3d-shadow with-transitions chart1'>-->
+    <svg id="chart1"></svg>
+</body>
+    
+
+<div class="container">
+    <div class="row">
+        <div class="col col-md-12">
+            <!--<body >
+            <body class='with-3d-shadow with-transitions'>
+                <svg id="chart1"></svg>
+            </body>-->
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col col-sm-4">
+            <h3>Current Category <small>(Click Category to Edit)</small></h3>
+            <div class="twittercategory">... ... ... </div>
+        </div>
+        <div class="col col-sm-4">
+            <h3>Top Tweets</h3>
+            <div class="twitterdata">... ... ... </div>
+        </div>
+    </div>
+</div>
+
+</html>
