@@ -19,9 +19,8 @@ from excelninja import app
 from models import db
 from snapinstadash import *
 from netflixdash import *
+from areagraph import *
 from appledash import *
-
-
 
 
 # Required for correct utf8 encoding calls from heroku
