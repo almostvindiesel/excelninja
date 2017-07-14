@@ -14156,7 +14156,9 @@ nv.models.stackedArea = function() {
                 return !series.disabled;
             });
             console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-            display_data_table(data)
+            display_tweets(data[0]['key']);
+            display_hashtags(data[0]['key']);
+
 
             data = d3.layout.stack()
                 .order(order)

@@ -7,59 +7,66 @@ $(document).click(function() {
 
 	//Remove Edit Prompt and Save Category
 	if (is_editing_category == true 
-		&& div_clicked_on.attr('class') != 'twittercategory'
-		&& div_clicked_on.attr('id') != 'twittercategorynew'
+		&& div_clicked_on.attr('class') != 'topiccategory'
+		&& div_clicked_on.attr('id') != 'topiccategorynew'
 		) {
 		is_editing_category = false;
 
-		var new_category_text = $("#twittercategorynew").val(); 
+		var new_category_text = $("#topiccategorynew").val(); 
 
-		$("div.twittercategory").text(new_category_text);
+		$("div.topiccategory").text(new_category_text);
 
 	}
 
 	// Create Prompt to Edit Category
-	if (div_clicked_on.attr('class') == 'twittercategory' && is_editing_category == false) {
+	if (div_clicked_on.attr('class') == 'topiccategory' && is_editing_category == false) {
 		var current_category_value = div_clicked_on.text()
-		var input = '<input type="text" id="twittercategorynew" value="' +current_category_value + '">'
-		$("div.twittercategory").html(input);
+		var input = '<input type="text" id="topiccategorynew" value="' +current_category_value + '">'
+		$("div.topiccategory").html(input);
 		is_editing_category = true;
 	}
 
 });
 
 
-function display_data_table(data) {
-	//console.log("length " + data[0]['values'].length);
-	console.log(data[0]['values'][0][0]);
+function display_tweets(current_topic_key) {
+	
 
-	//var topicSelected = data[0[]]
+	// Change html to show current topic
+	$('div.topiccategory').text(current_topic_key);
 
-	 $('div.twittercategory').text(data[0]['key']);
-	 var tweet_text = "";
-	 var tweets = ['Enterway ethay Englishway exttay erehay atthay ouyay antway anslatedtray intoway',
-	 		   'AvaScriptjay ogrampray. Otenay atthay yphenatedhay ordsway areway eatedtray a',
-	 		   'andway away-zay. Allway unctuationpay, umera',
-	 		   'Ethay outinesray areway ittenwray inway',
-	 		   'Ethay algorithmsway ereway evelopedday andway'
-	 		   ]
-
-	tweets = shuffle(tweets);
-
-	for (i = 0; i < tweets.length; i++) { 
-	    tweet_text += tweets[i] + "<br>";
-	    //console.log(data[0]['values'][i]);
-	}
-
-	 $('div.twitterdata').html(tweet_text);
-	 /*
-	 for (i = 0; i < data[0]['values'].length && i < 5; i++) { 
-	    tweet_text += data[0]['values'][i][0] + "<br>";
-	    //console.log(data[0]['values'][i]);
+	//Change tweets displayed based on current topic
+	var tweet_html = "<ol>";
+	var added_tweets = 0;
+	var max_tweets_to_show = 8;
+	for (i = 0; i < tweets_from_topics.length && added_tweets < max_tweets_to_show; i++) { 
+		if(tweets_from_topics[i]['topic'] == current_topic_key) {
+		    tweet_html += "<li>" + tweets_from_topics[i]['tweet'] + "</li><br>";
+		    added_tweets = added_tweets + 1;
+	    }
 	 }
-	 */
-	 
+	 tweet_html = tweet_html+"</ol>"
+	 $('div.tweets').html(tweet_html);
 
+}
+
+function display_hashtags(current_topic_key) {
+	
+	//Change tweets displayed based on current topic
+	var hashtag_html = "<ol>";
+	var added_hashtags = 0;
+	var max_hashtags_to_show = 8;
+	for (i = 0; i < hashtags_from_topics.length && added_hashtags < max_hashtags_to_show; i++) { 
+		if(hashtags_from_topics[i]['topid_id'] == current_topic_key) {
+			if ( !hashtags_from_topics[i]['hashtag'].includes("houseof") ) { 
+				hashtag_html += "<li>" + hashtags_from_topics[i]['hashtag'] + "</li><br>";
+		    	added_hashtags = added_hashtags + 1;
+			}
+	    }
+	 }
+	 hashtag_html = hashtag_html+"</ol>"
+	 $('div.hashtags').html(hashtag_html);
+	 
 }
 
 function shuffle(array) {
