@@ -34,11 +34,9 @@ except ImportError:
 # ---------------
 
 
-
-
+# Extracts Recipes from Google Drive
 @app.route('/api/v1/recipes', methods=['GET'])
 def get_recipes():
-
 
 	# If modifying these scopes, delete your previously saved credentials
 	# at ~/.credentials/drive-python-quickstart.json

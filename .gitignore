@@ -1,3 +1,4 @@
+*.pyc
 venv/
 excelninja/__init__.pyc
 excelninja/models.pyc
