@@ -19,7 +19,6 @@ from excelninja import app
 # Google API
 # from __future__ import print_function
 import httplib2
-import os
 
 from apiclient import discovery
 from oauth2client import client
@@ -73,6 +72,7 @@ def get_recipes():
 			else: # Needed only for compatibility with Python 2.6
 				credentials = tools.run(flow, store)
 			print('Storing credentials to ' + credential_path)
+		print credential_path
 		return credentials
 
 	def extract_recipes():
@@ -110,6 +110,7 @@ def get_recipes():
 						'version' : int(item['version'])
 					})
 				# files.append(item)
+
 				
 				#print item['parents']['id']
 		return files
@@ -119,9 +120,9 @@ def get_recipes():
 		files = extract_recipes()
 		files = sorted(files, key=lambda k: k['version'], reverse=True) 
 		msg = 'success'
-	except Exception:
-		print "Something went wrong", Exception 
-		msg = 'failure'
+	except Exception as e:
+		msg = "Something went wrong", str(e) 
+		print msg
 
 	return jsonify({'data':files,'msg':msg})
 

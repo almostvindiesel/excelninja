@@ -4,7 +4,9 @@ print "Loading " + __file__
 
 import os
 from flask import Flask
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
+CORS(app)
 
 # ------------------------------------------------------------------------------------------ Configuration 
 if('EXCELNINJA_ENVIRONMENT' in os.environ):
