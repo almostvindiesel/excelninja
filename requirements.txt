@@ -1,5 +1,6 @@
 pandas
 mysql-python
+Flask-Caching
 click==6.6
 Flask==0.11.1
 flask_cors

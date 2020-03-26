@@ -5,8 +5,24 @@ print "Loading " + __file__
 import os
 from flask import Flask
 from flask_cors import CORS, cross_origin
+
+# ~~~ Cache...
+from flask_caching import Cache
+config = {
+    "DEBUG": True,          # some Flask specific configs
+    "CACHE_TYPE": "simple", # Flask-Caching related configs
+    "CACHE_DEFAULT_TIMEOUT": 300
+}
+
+
 app = Flask(__name__)
 CORS(app)
+
+# ~~~ Cache...
+app.config.from_mapping(config)
+cache = Cache(app)
+
+
 
 # ------------------------------------------------------------------------------------------ Configuration 
 if('EXCELNINJA_ENVIRONMENT' in os.environ):
