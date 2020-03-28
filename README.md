@@ -1,12 +1,13 @@
 # Overview
 
-This is the app that runs on excelninja.com. At the moment it only does two things
+This is the app that runs on excelninja.com. At the moment it only does a few things
 
-1. Redirects users who visit the homepage to John Marsland's Linked In
-2. Runs an example dashboard (at homepage.com/dash) that compares Estimated SnapChat DAU to Instagram DAU
+1. Redirects users who visit excelninja.com to John Marsland's Linked In
+2. Powers a few view layers which load exploratory dashboards
+2. Has api endpoints which power these dashboards
 
 
-# Installation
+# Getting Started
 
 ```bash
 virtualenv venv
