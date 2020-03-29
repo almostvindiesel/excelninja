@@ -103,7 +103,12 @@ def get_recipes_v2():
 		http = credentials.authorize(httplib2.Http())
 		service = discovery.build('drive', 'v2', http=http)
 
-		parents_query = "'1fMHrwD1J3-WhV7d-HIqbvmPhxomlP6k-' in parents or '1Gv0h9svXbcAw86fOJlqkHHfgN5_U8r-C' in parents or '1iprey3gooBGeOP3Sc2UcoHsLwOGSBeK4' in parents"
+		parents_query = """
+		'1fMHrwD1J3-WhV7d-HIqbvmPhxomlP6k-' in parents 
+		or '1Gv0h9svXbcAw86fOJlqkHHfgN5_U8r-C' in parents 
+		or '1iprey3gooBGeOP3Sc2UcoHsLwOGSBeK4' in parents
+		or '1Q0L7yT6XnbW8cLJGkV-cTpS7B-sdMKT5' in parents
+		"""
 
 		results = service.files().list(maxResults=limit,q=parents_query).execute()
 		#results = service.files().list(maxResults=30).execute()
