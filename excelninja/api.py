@@ -27,6 +27,14 @@ from oauth2client.file import Storage
 from excelninja import cache
 
 
+from models import db
+from sqlalchemy import UniqueConstraint, distinct, func
+from sqlalchemy.exc import IntegrityError
+from sqlalchemy.sql import text
+from flaskext.mysql import MySQL
+import MySQLdb
+
+
 try:
 	import argparse
 	flags = argparse.ArgumentParser(parents=[tools.argparser]).parse_args()
@@ -147,6 +155,33 @@ def get_recipes_v2():
 		print msg
 
 	return jsonify({'data':files,'msg':msg})
+
+
+@app.route('/api/v1/recipes/paprika/', methods=['GET'])
+def get_recipes_paprika(fetchCache=None):
+    
+
+    sql =  """
+    	select *
+    	from recipes.recipe
+    	limit 100
+    """
+
+    #sql = "show databases"
+    try:
+    	result = db.engine.execute(sql)
+    	print (result)
+    except Exception as e:
+        print ("Exception:", e)
+        result = None
+
+    recipes = []
+    for row in result:
+    	print ("-"*50)
+    	print (row)
+        recipes.append(row)
+
+    return jsonify({'results':'a'})
 
 
 # # Extracts Recipes from Google Drive
