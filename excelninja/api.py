@@ -199,7 +199,7 @@ def get_recipes_paprika():
 
     if os.environ['EXCELNINJA_ENVIRONMENT'] == 'local':
         schema = 'recipes';
-    elif os.environ['EXCELNINJA_ENVIRONMENT'] == 'pa':
+    elif app.config['ENVIRONMENT'] == 'pa':
         schema = 'almostvindiesel$recipes'
     else:
         raise ("No supported environment set")
