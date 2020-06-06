@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print "Loading " + __file__
+print ("Loading " + __file__)
 
 from excelninja import app
 import os
@@ -14,7 +14,6 @@ from sqlalchemy.sql import func
 from sqlalchemy import UniqueConstraint, distinct, func
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import relationship
-
 
 from flaskext.mysql import MySQL
 import MySQLdb

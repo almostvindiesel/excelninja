@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print "Loading " + __file__
+print ("Loading " + __file__)
 
 
 import os
