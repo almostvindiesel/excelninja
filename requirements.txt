@@ -1,6 +1,10 @@
+# pip install --no-binary mysqlclient mysqlclient
+# I think this may need to get installed 11/2022
+# mysqlclient
+oauth2client
 pandas
-#mysql-python
-Flask-Caching
+# mysql-python
+Flask-Caching==1.7.2
 click==6.6
 Flask
 flask-cors

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print "Loading " + __file__
+# print ("Loading " + __file)__
 
 import os
 import datetime
@@ -62,7 +62,7 @@ def apple_initialize_filter_sql():
 def apple_update_filter_values(filter_values): 
     filter_categories = ['genders','countries','age_ranges']
 
-    print "prior filter_values: ", filter_values
+    print ("prior filter_values: ", filter_values)
 
     for filter_category in filter_categories:
         if request.form.get(filter_category):
@@ -70,7 +70,7 @@ def apple_update_filter_values(filter_values):
             for filter_selection in filter_selections:
                 filter_values[filter_category].append(filter_selection)
     
-    print "updated filter_values: ", filter_values
+    print ("updated filter_values: ", filter_values)
 
     return filter_values
 
@@ -92,7 +92,7 @@ def apple_update_filter_sql(filter_values, filter_sql):
     else:
         filter_sql['countries'] =' and country in (' + ','.join(map(apply_quotes, filter_values['countries'])) + ')'
     
-    print "updated filter sql: ", filter_sql
+    print ("updated filter sql: ", filter_sql)
     return filter_sql
 
 

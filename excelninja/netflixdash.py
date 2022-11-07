@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print "Loading " + __file__
+# print "Loading " + __file__
 
 import os
 import datetime
@@ -27,7 +27,7 @@ import MySQLdb
 
 @app.route('/netflix', methods=['GET'])
 def netflix():
-    print "-" * 50
+    print ("-" * 50)
 
     filter_values = initialize_video_filter_values()
     filter_sql = initialize_video_filter_sql()
@@ -299,7 +299,7 @@ def netflix_age_pct():
 
 @app.route('/netflix/api/genderpct.json', methods=['GET','POST'])
 def netflix_gender_pct():
-    print "netflix_gender_pct----------"
+    print ("netflix_gender_pct----------")
 
     filter_values = initialize_video_filter_values()
     filter_sql    = initialize_video_filter_sql()
@@ -354,7 +354,7 @@ def netflix_gender_pct():
         datasets  = datasets
     )
 
-    print "--- gender data: "
+    print ("--- gender data: ")
     print data
     return jsonify(data)
 

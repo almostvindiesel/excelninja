@@ -1,4 +1,4 @@
-print "Loading " + __file__
+# print "Loading " + __file__
 
 import os
 os.environ['EXCELNINJA_ENVIRONMENT'] = 'local'
