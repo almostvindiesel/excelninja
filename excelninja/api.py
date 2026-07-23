@@ -204,7 +204,7 @@ def get_recipes_paprika():
     else:
         raise ("No supported environment set")
 
-    sql =  "select * from {schema}.recipe_paprika order by rating desc".format(schema=schema)
+    sql =  "select * from {schema}.recipe_paprika  order by rating desc".format(schema=schema)
 
     try:
     	result = db.engine.execute(sql)
@@ -220,7 +220,13 @@ def get_recipes_paprika():
 
     	row_as_dict['category_names'] = filter(None, row_as_dict['category_names'].split(','))
     	row_as_dict['type'] = 'paprika'
-    	recipes.append(row_as_dict)
+        
+        # Remove recipes that are tagged with do not publish
+        if not 'do not publish' in row_as_dict['category_names']:
+            recipes.append(row_as_dict)
+        else:
+            print ("skipping recipe")
+            print(row_as_dict['name'])
 
     return jsonify({'data':recipes})
 
