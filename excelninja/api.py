@@ -9,7 +9,7 @@ import requests
 import requests.packages.urllib3
 import json
 import xmltodict, json
-from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify
+from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify, send_from_directory
 from datetime import date,timedelta
 from werkzeug.utils import secure_filename
 requests.packages.urllib3.disable_warnings()
@@ -192,6 +192,18 @@ except ImportError:
 # 		print msg
 
 # 	return jsonify({'data':files,'msg':msg})
+
+
+RECIPE_IMAGES_DIR = os.environ.get('RECIPE_IMAGES_DIR', '/home/almostvindiesel/recipe_images')
+
+
+@app.route('/api/v3/recipes/image/<uid>', methods=['GET'])
+def get_recipe_image(uid):
+    for ext in ('.jpg', '.jpeg', '.png', '.webp', '.gif'):
+        filename = uid + ext
+        if os.path.exists(os.path.join(RECIPE_IMAGES_DIR, filename)):
+            return send_from_directory(RECIPE_IMAGES_DIR, filename)
+    return jsonify({'error': 'image not found'}), 404
 
 
 @app.route('/api/v3/recipes/', methods=['GET'])
